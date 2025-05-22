@@ -1,7 +1,7 @@
 # Cam Soper
 ### Developer Relations | Technical Education | Open Source Advocate  
 
-Hi! 👋🏻 I'm Cam. 😊
+#### Hi! 👋🏻 I'm Cam. 😊
 
 I thrive on mastering complex topics and making them accessible—whether through code, documentation, training, livestreams, or one-on-one collaboration. I don't just build things; I learn deeply, then share that knowledge in ways developers and teams can relate to and put to use immediately.
 
