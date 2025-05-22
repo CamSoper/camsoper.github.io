@@ -1,12 +1,78 @@
 # Resume
 
+## Work Experience
 
-## Work
+### Microsoft – Senior Content Developer  
+**June 2015 – May 2025**
+*Remote*  
 
-- Did some stuff
-- Did some more stuff
+Focused on developer education, open-source contributions, and making complex technical topics more accessible. Crafted high-impact learning materials across a variety of media to empower developers.
 
-## School
+- **Maintained 467 topics** across Azure and .NET documentation, driving over **1.1 million annual pageviews** of documentation and training material.  
+- Authored technical documentation for **Azure PaaS products, Azure DevOps, Azure SDK, and .NET**.  
+- Collaborated with the .NET community team to create **instructional video series, “Let's Learn” events**, content for Microsoft conferences, and other Microsoft learning initiatives.
+- **Co-founded and co-hosted *On .NET Live***—a community-driven stream supporting .NET developers.  
+- **Primary author** of Microsoft Learn training content for .NET topics.  
+- Edited and maintained vendor-created training modules for **.NET Aspire**.  
+- Developed **internal AI-driven content tools**, integrating GitHub Copilot to optimize documentation workflows.  
+- Built developer environments using **Dev Containers, Codespaces, and WSL**, streamlining onboarding for Linux-first and cross-platform developers.  
+- Wrote **the entire set of .NET IoT documentation**, bridging hardware integration with .NET development.  
+- Advocated for **open-source learning**, ensuring training materials, samples, and documentation remained accessible for community contributions.  
+- Designed and maintained **cross-platform learning content**, integrating WSL and containerized environments for seamless Linux-first workflows.  
 
-- Did lotsa stuff
-- Slept
+#### Skills & Technologies  
+
+Developer Relations • Artificial Intelligence (AI) • .NET • ASP.NET Core • Technical Documentation • E-Learning • Containers • Solution Architecture • Microservices • WSL • Dev Containers • Codespaces • GitHub • Azure DevOps  
+
+---
+
+### Microsoft – Premier Field Engineer  
+**February 2012 – June 2015**  
+*Various Locations, Remote*  
+
+Worked with development teams across industries to solve production issues, optimize performance, and deliver hands-on training. Supported federal agencies and Fortune 500 companies with deep technical troubleshooting and developer education.  
+
+- Provided **on-site and remote Premier support** for .NET and Azure, diagnosing issues, resolving production blockers, and optimizing performance.  
+- Delivered **custom and prebuilt developer workshops**, tailoring education to enterprise needs.  
+- **Launched Microsoft’s first fully online Premier workshops**, proving virtual technical education could match in-person effectiveness.  
+- Worked with **notable customers**, including the White House Communication Agency, US Air Force, US Government Printing Office, Orange County, CA, and Toshiba of America.  
+
+#### Skills & Technologies  
+.NET • Azure • Developer Education • Technical Troubleshooting • Performance Optimization • Enterprise Training • Virtual Workshops
+
+---
+
+### Fiserv – Sr. Software Engineer / Professional Services Tech Lead  
+**September 2007 – February 2012**  
+*Remote*  
+
+Originally hired at Corillian, which passed through CheckFree before becoming Fiserv. Implemented online banking solutions for major financial institutions.
+
+---
+
+### RiverPoint Group – Associate  
+**July 2007 – September 2007**  
+
+Temporary position contracting with a local media company on a CMS project for a big four accounting firm.
+
+---
+
+### Commerce Bank – Web Developer III  
+**November 2000 – July 2007**  
+
+Started as a senior programmer analyst working on in-house CRM and became the lead developer for their online banking system.  
+
+---
+
+### Missouri State University – Professional Education Instructor  
+**May 1999 – November 2000**  
+
+Taught Microsoft Office and Windows in a professional education setting.
+
+---
+
+### KMB Technical Group – Programmer / Consultant  
+**May 1991 – October 2000**  
+*Remote*  
+
+Started as an eighth-grade apprentice with the town’s only computer consultant. Responsibilities included building computers, training users, and writing software.
