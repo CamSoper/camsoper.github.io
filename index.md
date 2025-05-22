@@ -1,4 +1,3 @@
-# Cam Soper  
 ### Developer Relations | Technical Education | Open Source Advocate  
 
 Welcome to my career hub! Here you'll find my **resume**, **projects**, and links to my contributions across the developer ecosystem.  
