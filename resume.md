@@ -37,7 +37,7 @@ Focused on developer education, open-source contributions, and making complex te
 - Designed and maintained **cross-platform learning content**, integrating WSL and containerized environments for seamless Linux-first workflows.  
 
 #### Skills & Technologies  
-
+  
 Developer Relations • Artificial Intelligence (AI) • .NET • ASP.NET Core • Technical Documentation • E-Learning • Containers • Solution Architecture • Microservices • WSL • Dev Containers • Codespaces • GitHub • Azure DevOps  
 
 ---
@@ -54,6 +54,7 @@ Worked with development teams across industries to solve production issues, opti
 - Worked with **notable customers**, including the White House Communication Agency, US Air Force, US Government Printing Office, Orange County, CA, and Toshiba of America.  
 
 #### Skills & Technologies  
+  
 .NET • Azure • Developer Education • Technical Troubleshooting • Performance Optimization • Enterprise Training • Virtual Workshops
 
 ---
@@ -100,9 +101,10 @@ Started as an eighth-grade apprentice with the area’s only computer consultant
 
 ## Education  
 
-### Missouri State University – Bachelor of Science in Communication  
+### Missouri State University – Bachelor of Science in Communication
+***Cum Laude, Honors College***
+  
 **1995 – 1999**  
-*Cum Laude, Honors College*  
 *Springfield, Missouri*
 
 Developed strong analytical, communication, and problem-solving skills through a humanities education, complemented by a minor in Computer Information Systems.
