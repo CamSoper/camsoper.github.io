@@ -6,27 +6,27 @@ This portfolio showcases some of my favorite projects.
 
 I was an author on the .NET docs team, where I wrote and edited documentation for .NET and ASP.NET Core across the entire documentation portfolio. I also created the entire set of .NET IoT documentation, bridging hardware integration with .NET development.
 
-- **.NET IoT Documentation**  
-  *The complete documentation for .NET IoT, covering hardware integration, libraries, and best practices.*  
+- **.NET IoT Libraries Documentation**  
+  *The complete documentation for the .NET IoT Libraries, covering hardware integration, libraries, and best practices.*  
   [View Documentation](https://learn.microsoft.com/dotnet/iot/)  
 
 ## Training Content  
 
 I was the primary author for Microsoft Learn training modules relating to .NET, helping developers master essential .NET and ASP.NET Core concepts.  
 
-- **ASP.NET Core Fundamentals**  
+- **Understand ASP.NET Core fundamentals**  
   *A complete learning path covering the foundations of ASP.NET Core development.*  
   [View Training](https://learn.microsoft.com/training/paths/aspnet-core-fundamentals/)  
 
-- **Persist Data with EF Core**  
+- **Persist and retrieve relational data by using Entity Framework Core**  
   *Teaches how to store and retrieve data efficiently using Entity Framework Core.*  
   [View Training](https://learn.microsoft.com/training/modules/persist-data-ef-core/)  
 
-- **C# Null Safety**  
+- **Null safety in C#**  
   *Explores nullable reference types and how to write safer, more robust C# code.*  
   [View Training](https://learn.microsoft.com/training/modules/csharp-null-safety/)  
 
-- **Secure ASP.NET Core Identity**  
+- **Secure a .NET web app with the ASP.NET Core Identity framework**  
   *Covers authentication and security practices for ASP.NET Core applications.*  
   [View Training](https://learn.microsoft.com/training/modules/secure-aspnet-core-identity/)  
 
@@ -64,11 +64,11 @@ Watch past episodes on [YouTube](https://www.youtube.com/playlist?list=PLdo4fOcm
 
 I've spoken at many conferences, sharing insights on .NET, IoT, and developer education. Here are a couple of representative talks with publicly available recordings:  
 
-- **Smart Home Automation with .NET Core & Hubitat**  
+- **My House Runs .NET - Smart Home Automation with .NET Core and Azure**  
   *Explores integrating .NET Core with Hubitat for building connected smart home solutions.*  
   [Watch on InfoQ](https://www.infoq.com/presentations/smart-home-net-core-hubitat/)  
 
-- **IoT Development with .NET Core**  
+- **Have Your Pi and Eat It Too: .NET Core on Raspberry Pi**  
   *A deep dive into leveraging .NET Core for building IoT applications.*  
   [Watch on InfoQ](https://www.infoq.com/presentations/net-core-iot/)  
 
