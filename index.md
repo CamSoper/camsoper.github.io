@@ -8,14 +8,4 @@ Reach out via [LinkedIn](https://www.linkedin.com/in/camthegeek/) or [email](mai
 
 ---
 
-## Resume  
-[View My Resume](resume.md)  
-
----
-
-## Featured Projects  
-- [.NET IoT Docs](https://learn.microsoft.com/dotnet/iot/)  
-- [On .NET Live](https://www.youtube.com/c/dotnet)  
-- [GitHub Open Source Contributions](https://github.com/camsoper)  
-
----
+[Résumé](resume.md) | [Portfolio](portfolio.md) | [Contact](mailto:cam.soper@outlook.com)
