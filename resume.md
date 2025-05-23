@@ -11,6 +11,7 @@ mainfont: "Liberation Sans"
 - **Email/Teams:** [cam.soper@outlook.com](mailto:cam.soper@outlook.com)
 - **LinkedIn:** [linkedin.com/in/camthegeek](https://www.linkedin.com/in/camthegeek)
 - **GitHub:** [github.com/camsoper](https://github.com/camsoper)
+- **Portfolio:** [camsoper.github.io](https://camsoper.github.io)
 
 ## Summary
 
