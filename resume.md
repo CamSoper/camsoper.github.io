@@ -8,9 +8,8 @@
 
 ## Summary
 
-Developer educator, open-source advocate, and technical content creator with over a decade of experience shaping developer learning experiences. Passionate about making complex technical topics accessible through engaging content, clear documentation, and community.
+Developer educator, open-source advocate, and technical content creator with over a decade of experience shaping developer learning experiences. Passionate about making complex technical topics accessible through engaging content, clear documentation, and community, dedicated to empowering developers with practical knowledge while bridging technical depth through storytelling.
 
-Committed to empowering developers with practical knowledge and bridging technical depth with storytelling.
 
 ## Work Experience
 

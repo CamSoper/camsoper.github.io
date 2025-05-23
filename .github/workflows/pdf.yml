@@ -1,0 +1,32 @@
+name: Generate and Commit Resume PDF  
+
+on:  
+  push:  
+    paths:  
+      - 'resume.md'  
+
+jobs:  
+  build:  
+    runs-on: ubuntu-latest  
+
+    steps:  
+      - name: Checkout repository  
+        uses: actions/checkout@v3  
+
+      - name: Install Pandoc and LaTeX  
+        run: |  
+          sudo apt-get update  
+          sudo apt-get install -y pandoc texlive-xetex  
+
+      - name: Convert Markdown to PDF  
+        run: |  
+          mkdir -p docs  
+          pandoc resume.md -o docs/resume.pdf --pdf-engine=xelatex  
+
+      - name: Commit and Push PDF  
+        run: |  
+          git config --global user.name "github-actions"  
+          git config --global user.email "github-actions@github.com"  
+          git add docs/resume.pdf  
+          git commit -m "Automated PDF update from resume.md"  
+          git push  
