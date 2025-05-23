@@ -4,7 +4,7 @@ author: "Cam Soper"
 date: "May 2025"
 geometry: "margin=1in"
 fontsize: "12pt"
-mainfont: "Arial"
+mainfont: "Liberation Sans"
 ---
 
 # Résumé of Cam Soper
