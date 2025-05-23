@@ -1,6 +1,12 @@
 # Resume
 
-## Summary  
+## Contact  
+
+📧 **Email/Teams:** [cam.soper@outlook.com](mailto:cam.soper@outlook.com)  
+🔗 **LinkedIn:** [linkedin.com/in/camthegeek](https://www.linkedin.com/in/camthegeek)  
+🐙 **GitHub:** [github.com/camsoper](https://github.com/camsoper)  
+
+## Summary
 
 Developer educator, open-source advocate, and technical content creator with over a decade of experience shaping developer learning experiences. Passionate about making complex technical topics accessible through engaging content, clear documentation, and community.
 
