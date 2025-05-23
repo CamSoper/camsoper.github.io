@@ -23,10 +23,12 @@ jobs:
           mkdir -p docs  
           pandoc resume.md -o docs/resume.pdf --pdf-engine=xelatex  
 
-      - name: Commit and Push PDF  
-        run: |  
-          git config --global user.name "github-actions"  
-          git config --global user.email "github-actions@github.com"  
-          git add docs/resume.pdf  
-          git commit -m "Automated PDF update from resume.md"  
-          git push  
+      - name: Commit and Push PDF
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add docs/resume.pdf
+          git commit -m "Automated PDF update from resume.md"
+          git push https://$GH_TOKEN@github.com/CamSoper/camsoper.github.io.git HEAD:main
