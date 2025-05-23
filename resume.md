@@ -1,17 +1,16 @@
 ---
 geometry: "margin=1in"
-fontsize: "12pt"
+fontsize: "10pt"
 mainfont: "Liberation Sans"
-
 ---
 
 # Résumé of Cam Soper
 
 ## Contact  
 
-- **Email/Teams:** [cam.soper@outlook.com](mailto:cam.soper@outlook.com)  
-- **LinkedIn:** [linkedin.com/in/camthegeek](https://www.linkedin.com/in/camthegeek)  
-- **GitHub:** [github.com/camsoper](https://github.com/camsoper)  
+- **Email/Teams:** [cam.soper@outlook.com](mailto:cam.soper@outlook.com)
+- **LinkedIn:** [linkedin.com/in/camthegeek](https://www.linkedin.com/in/camthegeek)
+- **GitHub:** [github.com/camsoper](https://github.com/camsoper)
 
 ## Summary
 
@@ -110,13 +109,13 @@ Developed strong analytical, communication, and problem-solving skills through a
 
 #### Activities & Honors  
 - **Golden Key National Honor Society**
-- **Lambda Pi Eta** – Communication studies honor society  
+- **Lambda Pi Eta** – Communication studies honor society
 - **Jazz Band & Marching Band**
 
 ---
 
 ## Certifications  
 
-- **Microsoft Certified Solution Developer: .NET (Legacy)**  
-- **Microsoft Certified Solution Developer: Microsoft Azure Solutions Architect**  
+- **Microsoft Certified Solution Developer: .NET (Legacy)**
+- **Microsoft Certified Solution Developer: Microsoft Azure Solutions Architect**
 - **Microsoft Certified Solutions Expert: Cloud Platform and Infrastructure**
