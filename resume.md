@@ -3,7 +3,7 @@
 ## Work Experience
 
 ### Microsoft – Senior Content Developer  
-**June 2015 – May 2025**
+**June 2015 – May 2025** 
 *Remote*  
 
 Focused on developer education, open-source contributions, and making complex technical topics more accessible. Crafted high-impact learning materials across a variety of media to empower developers.
@@ -27,8 +27,8 @@ Developer Relations • Artificial Intelligence (AI) • .NET • ASP.NET Core �
 ---
 
 ### Microsoft – Premier Field Engineer  
-**February 2012 – June 2015**  
-*Various Locations, Remote*  
+**February 2012 – June 2015** 
+*Various Locations, Remote*
 
 Worked with development teams across industries to solve production issues, optimize performance, and deliver hands-on training. Supported federal agencies and Fortune 500 companies with deep technical troubleshooting and developer education.  
 
@@ -51,7 +51,8 @@ Originally hired at Corillian, which passed through CheckFree before becoming Fi
 ---
 
 ### RiverPoint Group – Associate  
-**July 2007 – September 2007**  
+**July 2007 – September 2007**
+*Kansas City, Missouri*
 
 Temporary position contracting with a local media company on a CMS project for a big four accounting firm.
 
@@ -59,13 +60,15 @@ Temporary position contracting with a local media company on a CMS project for a
 
 ### Commerce Bank – Web Developer III  
 **November 2000 – July 2007**  
+*Kansas City, Missouri*
 
 Started as a senior programmer analyst working on in-house CRM and became the lead developer for their online banking system.  
 
 ---
 
 ### Missouri State University – Professional Education Instructor  
-**May 1999 – November 2000**  
+**May 1999 – November 2000**
+*Springfield, Missouri*
 
 Taught Microsoft Office and Windows in a professional education setting.
 
@@ -73,6 +76,30 @@ Taught Microsoft Office and Windows in a professional education setting.
 
 ### KMB Technical Group – Programmer / Consultant  
 **May 1991 – October 2000**  
-*Remote*  
+*Lake of the Ozarks, Missouri*  
 
-Started as an eighth-grade apprentice with the town’s only computer consultant. Responsibilities included building computers, training users, and writing software.
+Started as an eighth-grade apprentice with the area’s only computer consultant. Responsibilities included building computers, training users, and writing software.
+
+---
+
+## Education  
+
+### Missouri State University – Bachelor of Science in Communication  
+**1995 – 1999**  
+*Cum Laude, Honors College*  
+*Springfield, Missouri*
+
+Developed strong analytical, communication, and problem-solving skills through a humanities education, complemented by a minor in Computer Information Systems.
+
+#### Activities & Honors  
+- **Golden Key National Honor Society**
+- **Lambda Pi Eta** – Communication studies honor society  
+- **Jazz Band & Marching Band**
+
+---
+
+## Certifications  
+
+- **Microsoft Certified Solution Developer: .NET (Legacy)**  
+- **Microsoft Certified Solution Developer: Microsoft Azure Solutions Architect**  
+- **Microsoft Certified Solutions Expert: Cloud Platform and Infrastructure**  
