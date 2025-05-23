@@ -7,7 +7,7 @@ This portfolio showcases some of my favorite projects.
 I was an author on the .NET docs team, where I wrote and edited documentation for .NET and ASP.NET Core across the entire documentation portfolio. I also created the entire set of .NET IoT documentation, bridging hardware integration with .NET development.
 
 - **.NET IoT Documentation**  
-  *The complete documentation for .NET IoT, covering hardware integration, libraries, and best practices.*
+  *The complete documentation for .NET IoT, covering hardware integration, libraries, and best practices.*  
   [View Documentation](https://learn.microsoft.com/dotnet/iot/)  
 
 ## Training Content  
@@ -58,7 +58,7 @@ I've contributed to **Let's Learn .NET**, an interactive learning series designe
 
 I co-founded and co-host **On .NET Live**, a community-driven stream where .NET developers, MVPs, and industry experts share insights, projects, and innovations. Our mission is to enable the .NET community to achieve more by fostering community engagement and collaboration.  
 
-Watch past episodes on **[On .NET Live](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oV2fcY7wsQHx4RNWXEDKgm4)** or catch upcoming streams live!  
+Watch past episodes on [YouTube](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oV2fcY7wsQHx4RNWXEDKgm4) or catch upcoming streams live!  
 
 ## Conference Talks  
 
