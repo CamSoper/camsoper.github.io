@@ -32,6 +32,6 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add docs/resume.pdf
+          git add docs/cam_soper_resume.pdf.pdf
           git commit -m "Automated PDF update from resume.md"
           git push
