@@ -23,7 +23,7 @@ jobs:
 
       - name: Convert Markdown to PDF
         run: |
-          mkdir -p docs
+          mkdir -p dist
           pandoc resume.md -o dist/cam_soper_resume.pdf --pdf-engine=xelatex
 
       - name: Commit and Push PDF
