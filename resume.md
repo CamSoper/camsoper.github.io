@@ -26,7 +26,7 @@ Focused on developer education, open-source contributions, and making complex te
 
 - **Maintained 467 topics** across Azure and .NET documentation, driving over **1.1 million annual pageviews** of documentation and training material.  
 - Authored technical documentation for **Azure PaaS products, Azure DevOps, Azure SDK, and .NET**.  
-- Collaborated with the .NET community team to create **instructional video series, “Let's Learn” events**, content for Microsoft conferences, and other Microsoft learning initiatives.
+- Collaborated with the .NET community team to create **instructional video series, “Let's Learn” events**, content for **Microsoft conferences**, and other Microsoft learning initiatives.
 - **Co-founded and co-hosted *On .NET Live***—a community-driven stream supporting .NET developers.  
 - **Primary author** of Microsoft Learn training content for .NET topics.  
 - Edited and maintained vendor-created training modules for **.NET Aspire**.  
