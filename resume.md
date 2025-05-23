@@ -1,3 +1,12 @@
+---
+title: "Résumé"
+author: "Cam Soper"
+date: "May 2025"
+geometry: "margin=1in"
+fontsize: "12pt"
+mainfont: "Arial"
+---
+
 # Résumé of Cam Soper
 
 ## Contact  
