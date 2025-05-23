@@ -2,6 +2,7 @@
 geometry: "margin=1in"
 fontsize: "12pt"
 mainfont: "Liberation Sans"
+
 ---
 
 # Résumé of Cam Soper
