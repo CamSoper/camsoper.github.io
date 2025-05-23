@@ -1,9 +1,15 @@
 # Resume
 
+## Summary  
+
+Developer educator, open-source advocate, and technical content creator with over a decade of experience shaping developer learning experiences. Passionate about making complex technical topics accessible through engaging content, clear documentation, and community.
+
+Committed to empowering developers with practical knowledge and bridging technical depth with storytelling.
+
 ## Work Experience
 
 ### Microsoft – Senior Content Developer  
-**June 2015 – May 2025** 
+**June 2015 – May 2025**  
 *Remote*  
 
 Focused on developer education, open-source contributions, and making complex technical topics more accessible. Crafted high-impact learning materials across a variety of media to empower developers.
@@ -27,7 +33,7 @@ Developer Relations • Artificial Intelligence (AI) • .NET • ASP.NET Core �
 ---
 
 ### Microsoft – Premier Field Engineer  
-**February 2012 – June 2015** 
+**February 2012 – June 2015**  
 *Various Locations, Remote*
 
 Worked with development teams across industries to solve production issues, optimize performance, and deliver hands-on training. Supported federal agencies and Fortune 500 companies with deep technical troubleshooting and developer education.  
@@ -51,7 +57,7 @@ Originally hired at Corillian, which passed through CheckFree before becoming Fi
 ---
 
 ### RiverPoint Group – Associate  
-**July 2007 – September 2007**
+**July 2007 – September 2007**  
 *Kansas City, Missouri*
 
 Temporary position contracting with a local media company on a CMS project for a big four accounting firm.
@@ -67,7 +73,7 @@ Started as a senior programmer analyst working on in-house CRM and became the le
 ---
 
 ### Missouri State University – Professional Education Instructor  
-**May 1999 – November 2000**
+**May 1999 – November 2000**  
 *Springfield, Missouri*
 
 Taught Microsoft Office and Windows in a professional education setting.
