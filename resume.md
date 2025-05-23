@@ -119,3 +119,4 @@ Developed strong analytical, communication, and problem-solving skills through a
 - **Microsoft Certified Solution Developer: .NET (Legacy)**  
 - **Microsoft Certified Solution Developer: Microsoft Azure Solutions Architect**  
 - **Microsoft Certified Solutions Expert: Cloud Platform and Infrastructure**
+
