@@ -8,7 +8,7 @@ Reach out via [LinkedIn](https://www.linkedin.com/in/camthegeek/) or [email](mai
 
 ---
 
-[Résumé (Web)](resume.md) • [Résumé (PDF)](docs/cam_soper_resume.pdf) • [Portfolio](portfolio.md) • [Contact](mailto:cam.soper@outlook.com)
+[Résumé (Web)](resume.md) • [Résumé (PDF)](dist/cam_soper_resume.pdf) • [Portfolio](portfolio.md) • [Contact](mailto:cam.soper@outlook.com)
 
 ---
 
