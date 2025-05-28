@@ -50,7 +50,7 @@ Focused on developer education, open-source contributions, and making complex te
 
 #### Skills & Technologies  
   
-Developer Relations • Artificial Intelligence • .NET • ASP.NET Core • Technical Documentation • E-Learning • Containers • Solution Architecture • Microservices • WSL • Dev Containers • Codespaces • GitHub • Azure DevOps  
+Developer Relations • Artificial Intelligence • .NET • ASP.NET Core • Azure • Technical Documentation • E-Learning • Containers • Solution Architecture • Microservices • WSL • Dev Containers • Codespaces • GitHub • Azure DevOps  
 
 ---
 
@@ -67,7 +67,7 @@ Worked with development teams across industries to solve production issues, opti
 
 #### Skills & Technologies  
   
-.NET • Azure • Developer Education • Technical Troubleshooting • Performance Optimization • Enterprise Training • Virtual Workshops
+.NET • Azure • Consulting • Developer Education • Technical Troubleshooting • Performance Optimization • Enterprise Training • Virtual Workshops
 
 ---
 
