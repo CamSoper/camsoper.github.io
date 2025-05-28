@@ -36,11 +36,11 @@ mainfont: "Liberation Sans"
 
 Focused on developer education, open-source contributions, and making complex technical topics more accessible. Crafted high-impact learning materials across a variety of media to empower developers.
 
-- Managed and maintained a comprehensive ecosystem of **467 Azure and .NET documentation topics**, driving over **1.1 million annual pageviews** and ensuring **developer accessibility at scale**.  
+- Managed and maintained a comprehensive ecosystem of **467 Azure and .NET documentation and training topics**, driving over **1.1 million annual pageviews** and ensuring **developer accessibility at scale**.  
 - Authored technical documentation for **Azure PaaS products, Azure DevOps, Azure SDK, and .NET**.  
 - Collaborated with the .NET community team to create **instructional video series, “Let's Learn” events**, content for **Microsoft conferences**, and other Microsoft learning initiatives.  
 - **Co-founded and co-hosted *On .NET Live***—a community-driven stream supporting .NET developers.  
-- **Primary author** of Microsoft Learn training content for .NET topics.  
+- **Primary author of .NET training content** on Microsoft Learn, including topics like **.NET fundamentals**, **ASP.NET Core**, **.NET microservices** and **Azure SDKs**.
 - Edited and maintained vendor-created training modules for **.NET Aspire**.  
 - Designed and implemented **AI-driven documentation tooling**, integrating **GitHub Copilot** to streamline workflows and enhance **content automation** across developer education platforms.  
 - Built developer environments using **Dev Containers, Codespaces, and WSL**, streamlining onboarding for Linux-first and cross-platform developers.  
