@@ -26,7 +26,6 @@ mainfont: "Liberation Sans"
 - **Open Source & Community Building** – Driving **developer engagement**, fostering **contributions**, and supporting **mentorship** initiatives.  
 - **AI & Content Automation** – Leveraging **AI-driven tools** to optimize documentation workflows and learning materials.  
 - **Technical Storytelling & Communication** – Translating **complex concepts** into accessible learning resources via **documentation**, **video**, and **live events**.  
-- **Cross-Platform Development Environments** – Architecting developer environments with **Dev Containers**, **Codespaces**, and **WSL** for seamless onboarding.  
 
 ## Work Experience
 
@@ -46,7 +45,6 @@ Focused on developer education, open-source contributions, and making complex te
 - Built developer environments using **Dev Containers, Codespaces, and WSL**, streamlining onboarding for Linux-first and cross-platform developers.  
 - Wrote **the entire set of .NET IoT documentation**, bridging hardware integration with .NET development.  
 - Advocated for **open-source learning**, ensuring training materials, samples, and documentation remained accessible for community contributions.  
-- Engineered **scalable development environments** leveraging **Dev Containers, Codespaces, and WSL** to optimize **onboarding**, **cross-platform compatibility**, and **developer efficiency**.  
 
 #### Skills & Technologies  
   
