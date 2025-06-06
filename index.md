@@ -12,4 +12,4 @@ If you're looking for someone who can connect with developer audiences across me
 
 ---
 
-<sub>*This portfolio is powered by GitHub Pages and maintained in [this repository](https://github.com/camsoper/camsoper.github.io).*</sub>
+<sub>*This résumé and portfolio is powered by GitHub Pages and maintained in [this repository](https://github.com/camsoper/camsoper.github.io).*</sub>
