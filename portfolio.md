@@ -40,7 +40,7 @@ I've written and built several instructional video series, helping developers le
 
 - **.NET IoT for Beginners**  
   *An introduction to building IoT solutions with .NET, covering key concepts and hardware integration.*  
-  [Watch on YouTube](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oWG4G6NxHV2yGEb42vQaFNc) • [Example Code and Diagrams](https://github.com/dotnet/beginner-series/tree/main/IoT)  
+  [Watch on YouTube](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oWG4G6NxHV2yGEb42vQaFNc) • [Example Code/Diagrams](https://github.com/dotnet/beginner-series/tree/main/IoT)  
 
 - **Entity Framework Core for Beginners**  
   *A beginner-friendly guide to using Entity Framework Core for data persistence and management. The dev container for this series features an interactive Code Tour walking the learner hands-on through every step.*  
