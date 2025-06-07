@@ -81,9 +81,9 @@ I've spoken at many conferences, sharing insights on .NET, IoT, and developer ed
 In addition to hosting developer-focused content, I’ve appeared on **On .NET** to showcase my IoT projects with .NET.  
 
 - **BBQ, Bots, and .NET Core**  
-  *A fun and technical deep dive into using .NET for BBQ automation, integrating IoT, and building smarter cooking experiences.*  
+  *A fun and technical deep dive into using .NET for BBQ automation.*  
   [Watch on YouTube](https://www.youtube.com/watch?v=4kJGRuXZ4kg)  
 
 - **Home Automation with Hubitat and .NET Core**  
-  *Exploring how .NET Core can power home automation solutions with Hubitat, bringing intelligence to everyday devices.*  
+  *Exploring how .NET Core can power home automation solutions with Hubitat.*  
   [Watch on YouTube](https://www.youtube.com/watch?v=FyVmAxuc32M)  
