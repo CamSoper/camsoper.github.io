@@ -9,30 +9,30 @@ I was an author on the .NET docs team, where I wrote and edited documentation fo
 - **.NET IoT Libraries Documentation**  
   *The complete documentation for the .NET IoT Libraries, covering hardware integration, libraries, and best practices.*  
   [View Documentation](https://learn.microsoft.com/dotnet/iot/) • [Example Code](https://github.com/MicrosoftDocs/dotnet-iot-assets/)  
-  
+
 ## Training Content  
 
 I was the primary author for Microsoft Learn training modules relating to .NET, helping developers master essential .NET and ASP.NET Core concepts.  
 
+- **Persist and retrieve relational data by using Entity Framework Core**  
+  *How to store and retrieve data efficiently using Entity Framework Core.*  
+  [View Training](https://learn.microsoft.com/training/modules/persist-data-ef-core/) • [Example Code/Dev Container](https://github.com/MicrosoftDocs/mslearn-persist-data-ef-core)
+
+- **Secure a .NET web app with the ASP.NET Core Identity framework**  
+  *Authentication and security practices for ASP.NET Core applications.*  
+  [View Training](https://learn.microsoft.com/training/modules/secure-aspnet-core-identity/) • [Example Code/Dev Container](https://github.com/MicrosoftDocs/mslearn-secure-aspnet-core-identity)  
+  
 - **Implement resiliency in a cloud-native .NET microservice**  
-  *How to build fault-tolerant microservices using .NET. It includes an in-browser example microservices application for hands-on exercises.*  
+  *How to build fault-tolerant microservices using .NET.*  
   [View Training](https://learn.microsoft.com/training/modules/microservices-resiliency-aspnet-core/)
 
 - **Understand ASP.NET Core fundamentals**  
   *A complete learning path covering the foundations of ASP.NET Core development.*  
   [View Training](https://learn.microsoft.com/training/paths/aspnet-core-fundamentals/)  
 
-- **Persist and retrieve relational data by using Entity Framework Core**  
-  *How to store and retrieve data efficiently using Entity Framework Core.*  
-  [View Training](https://learn.microsoft.com/training/modules/persist-data-ef-core/) • [Example Code/Dev Container](https://github.com/MicrosoftDocs/mslearn-persist-data-ef-core)
-
 - **Null safety in C#**  
   *Nullable reference types and how to write safer, more robust C# code.*  
   [View Training](https://learn.microsoft.com/training/modules/csharp-null-safety/)  
-
-- **Secure a .NET web app with the ASP.NET Core Identity framework**  
-  *Authentication and security practices for ASP.NET Core applications.*  
-  [View Training](https://learn.microsoft.com/training/modules/secure-aspnet-core-identity/) • [Example Code/Dev Container](https://github.com/MicrosoftDocs/mslearn-secure-aspnet-core-identity)  
 
 ## Video Series  
 
