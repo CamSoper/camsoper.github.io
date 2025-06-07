@@ -1,6 +1,6 @@
 # Portfolio  
 
-This portfolio showcases some of my favorite projects. 
+This portfolio showcases some of my favorite content projects, along with accompanying code repositories when applicable. Some projects include GitHub links that define dev containers with all the tools and dependencies needed to run the code. You can run the code in your browser with GitHub Codespaces or locally with Visual Studio Code.
 
 ## Documentation  
 
@@ -14,33 +14,37 @@ I was an author on the .NET docs team, where I wrote and edited documentation fo
 
 I was the primary author for Microsoft Learn training modules relating to .NET, helping developers master essential .NET and ASP.NET Core concepts.  
 
+- **Implement resiliency in a cloud-native .NET microservice**
+  *How to build fault-tolerant microservices using .NET. It includes an in-browser example microservices application for hands-on exercises.*
+  [View Training](https://learn.microsoft.com/training/modules/microservices-resiliency-aspnet-core/)
+
 - **Understand ASP.NET Core fundamentals**  
   *A complete learning path covering the foundations of ASP.NET Core development.*  
   [View Training](https://learn.microsoft.com/training/paths/aspnet-core-fundamentals/)  
 
 - **Persist and retrieve relational data by using Entity Framework Core**  
-  *Teaches how to store and retrieve data efficiently using Entity Framework Core.*  
-  [View Training](https://learn.microsoft.com/training/modules/persist-data-ef-core/)  
+  *How to store and retrieve data efficiently using Entity Framework Core.*  
+  [View Training](https://learn.microsoft.com/training/modules/persist-data-ef-core/) • [Dev Container](https://github.com/MicrosoftDocs/mslearn-persist-data-ef-core)
 
 - **Null safety in C#**  
-  *Explores nullable reference types and how to write safer, more robust C# code.*  
+  *Nullable reference types and how to write safer, more robust C# code.*  
   [View Training](https://learn.microsoft.com/training/modules/csharp-null-safety/)  
 
 - **Secure a .NET web app with the ASP.NET Core Identity framework**  
-  *Covers authentication and security practices for ASP.NET Core applications.*  
-  [View Training](https://learn.microsoft.com/training/modules/secure-aspnet-core-identity/)  
+  *Authentication and security practices for ASP.NET Core applications.*
+  [View Training](https://learn.microsoft.com/training/modules/secure-aspnet-core-identity/) • [Dev Container](https://github.com/MicrosoftDocs/mslearn-secure-aspnet-core-identity)  
 
 ## Video Series  
 
 I've written and built several instructional video series, helping developers learn through clear, engaging content.  
 
 - **.NET IoT for Beginners**  
-  *An introduction to building IoT solutions with .NET, covering key concepts and hardware integration. The examples used are hosted [in this GitHub location](https://github.com/dotnet/beginner-series/tree/main/IoT).*  
-  [Watch on YouTube](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oWG4G6NxHV2yGEb42vQaFNc)  
+  *An introduction to building IoT solutions with .NET, covering key concepts and hardware integration.*  
+  [Watch on YouTube](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oWG4G6NxHV2yGEb42vQaFNc) • [Example Code and Diagrams](https://github.com/dotnet/beginner-series/tree/main/IoT)  
 
 - **Entity Framework Core for Beginners**  
-  *A beginner-friendly guide to using Entity Framework Core for data persistence and management. It features a [companion GitHub repo](https://github.com/MicrosoftDocs/ef-core-for-beginners) containing a dev container that contains all of the code examples and servers used in the series, as well as an interactive Code Tour walking the user through every step.*  
-  [Watch on YouTube](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oXCPdC3fTFA3Z79-eVH3K-s)  
+  *A beginner-friendly guide to using Entity Framework Core for data persistence and management. The dev container for this series features an interactive Code Tour walking the learner hands-on through every step.*  
+  [Watch on YouTube](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oXCPdC3fTFA3Z79-eVH3K-s) • [Dev Container](https://github.com/MicrosoftDocs/ef-core-for-beginners)
 
 ## Live Learning Events  
 
