@@ -35,11 +35,11 @@ I was the primary author for Microsoft Learn training modules relating to .NET, 
 I've written and built several instructional video series, helping developers learn through clear, engaging content.  
 
 - **.NET IoT for Beginners**  
-  *An introduction to building IoT solutions with .NET, covering key concepts and hardware integration.*  
+  *An introduction to building IoT solutions with .NET, covering key concepts and hardware integration. The examples used are hosted [in this GitHub location](https://github.com/dotnet/beginner-series/tree/main/IoT).*  
   [Watch on YouTube](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oWG4G6NxHV2yGEb42vQaFNc)  
 
 - **Entity Framework Core for Beginners**  
-  *A beginner-friendly guide to using Entity Framework Core for data persistence and management.*  
+  *A beginner-friendly guide to using Entity Framework Core for data persistence and management. It features a [companion GitHub repo](https://github.com/MicrosoftDocs/ef-core-for-beginners) containing a dev container that contains all of the code examples and servers used in the series, as well as an interactive Code Tour walking the user through every step.*  
   [Watch on YouTube](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oXCPdC3fTFA3Z79-eVH3K-s)  
 
 ## Live Learning Events  
