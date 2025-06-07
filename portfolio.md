@@ -15,7 +15,7 @@ I was an author on the .NET docs team, where I wrote and edited documentation fo
 I was the primary author for Microsoft Learn training modules relating to .NET, helping developers master essential .NET and ASP.NET Core concepts.  
 
 - **Implement resiliency in a cloud-native .NET microservice**
-  *How to build fault-tolerant microservices using .NET. It includes an in-browser example microservices application for hands-on exercises.*
+  *How to build fault-tolerant microservices using .NET. It includes an in-browser example microservices application for hands-on exercises.*  
   [View Training](https://learn.microsoft.com/training/modules/microservices-resiliency-aspnet-core/)
 
 - **Understand ASP.NET Core fundamentals**  
@@ -31,7 +31,7 @@ I was the primary author for Microsoft Learn training modules relating to .NET, 
   [View Training](https://learn.microsoft.com/training/modules/csharp-null-safety/)  
 
 - **Secure a .NET web app with the ASP.NET Core Identity framework**  
-  *Authentication and security practices for ASP.NET Core applications.*
+  *Authentication and security practices for ASP.NET Core applications.*  
   [View Training](https://learn.microsoft.com/training/modules/secure-aspnet-core-identity/) • [Dev Container](https://github.com/MicrosoftDocs/mslearn-secure-aspnet-core-identity)  
 
 ## Video Series  
