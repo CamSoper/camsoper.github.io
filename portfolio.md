@@ -8,8 +8,8 @@ I was an author on the .NET docs team, where I wrote and edited documentation fo
 
 - **.NET IoT Libraries Documentation**  
   *The complete documentation for the .NET IoT Libraries, covering hardware integration, libraries, and best practices.*  
-  [View Documentation](https://learn.microsoft.com/dotnet/iot/)  
-
+  [View Documentation](https://learn.microsoft.com/dotnet/iot/) • [Example Code](https://github.com/MicrosoftDocs/dotnet-iot-assets/)  
+  
 ## Training Content  
 
 I was the primary author for Microsoft Learn training modules relating to .NET, helping developers master essential .NET and ASP.NET Core concepts.  
