@@ -24,7 +24,7 @@ I was the primary author for Microsoft Learn training modules relating to .NET, 
 
 - **Persist and retrieve relational data by using Entity Framework Core**  
   *How to store and retrieve data efficiently using Entity Framework Core.*  
-  [View Training](https://learn.microsoft.com/training/modules/persist-data-ef-core/) • [Dev Container](https://github.com/MicrosoftDocs/mslearn-persist-data-ef-core)
+  [View Training](https://learn.microsoft.com/training/modules/persist-data-ef-core/) • [GitHub Repository/Dev Container](https://github.com/MicrosoftDocs/mslearn-persist-data-ef-core)
 
 - **Null safety in C#**  
   *Nullable reference types and how to write safer, more robust C# code.*  
@@ -32,7 +32,7 @@ I was the primary author for Microsoft Learn training modules relating to .NET, 
 
 - **Secure a .NET web app with the ASP.NET Core Identity framework**  
   *Authentication and security practices for ASP.NET Core applications.*  
-  [View Training](https://learn.microsoft.com/training/modules/secure-aspnet-core-identity/) • [Dev Container](https://github.com/MicrosoftDocs/mslearn-secure-aspnet-core-identity)  
+  [View Training](https://learn.microsoft.com/training/modules/secure-aspnet-core-identity/) • [GitHub Repository/Dev Container](https://github.com/MicrosoftDocs/mslearn-secure-aspnet-core-identity)  
 
 ## Video Series  
 
@@ -44,7 +44,7 @@ I've written and built several instructional video series, helping developers le
 
 - **Entity Framework Core for Beginners**  
   *A beginner-friendly guide to using Entity Framework Core for data persistence and management. The dev container for this series features an interactive Code Tour walking the learner hands-on through every step.*  
-  [Watch on YouTube](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oXCPdC3fTFA3Z79-eVH3K-s) • [Dev Container](https://github.com/MicrosoftDocs/ef-core-for-beginners)
+  [Watch on YouTube](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oXCPdC3fTFA3Z79-eVH3K-s) • [GitHub Repository/Dev Container](https://github.com/MicrosoftDocs/ef-core-for-beginners)
 
 ## Live Learning Events  
 
