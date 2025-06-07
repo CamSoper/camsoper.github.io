@@ -1,6 +1,6 @@
 # Portfolio  
 
-This portfolio showcases some of my favorite content projects, along with accompanying code repositories when applicable. Some projects include GitHub links that define dev containers with all the tools and dependencies needed to run the code. You can run the code in your browser with GitHub Codespaces or locally with Visual Studio Code.
+This portfolio showcases some of my favorite content projects, along with accompanying code repositories when applicable. Some projects include GitHub repos that define dev containers with all the tools and dependencies needed to run the code.
 
 ## Documentation  
 
