@@ -134,4 +134,4 @@ Developed strong analytical, communication, and problem-solving skills through a
 
 ---
 
-*<sub>This is a living document. The most up-to-date version can be found at [https://camsoper.github.io](https://camsoper.github.io).</sub>*
+*<sub>Last updated 2025-06-17. The most up-to-date version can be found at [https://camsoper.github.io](https://camsoper.github.io).</sub>*
