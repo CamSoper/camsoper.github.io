@@ -5,5 +5,9 @@ layout: default
   {% include resume-header.html %}
   <article class="card resume">
     {{ content }}
+    <p class="resume-updated">
+      Last updated {{ site.time | date: "%Y-%m-%d" }}. The most up-to-date
+      version can be found at <a href="{{ site.url }}">{{ site.url | remove: "https://" }}</a>.
+    </p>
   </article>
 </div>

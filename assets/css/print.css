@@ -48,6 +48,13 @@ body{ background:#fff; font-size:10.5pt; }
 /* links print as plain black text (URLs still readable + ATS-safe) */
 a{ color:#000 !important; text-decoration:none !important; border:0 !important; }
 
+/* tiny "last updated / source URL" line at the foot of the résumé */
+.resume-updated{
+  margin-top:16pt; padding-top:6pt; border-top:0.5pt solid #bbb;
+  font-size:7.5pt; line-height:1.4; color:#777;
+}
+.resume-updated a{ color:#777 !important; }  /* keep it muted, not solid black */
+
 /* never split a job entry or a heading across pages */
 .resume h2, .resume h3{ break-after:avoid; }
 .resume h3, .resume ul, .resume li{ break-inside:avoid; }
