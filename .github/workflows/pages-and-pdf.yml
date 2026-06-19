@@ -48,7 +48,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -f dist/cam_soper_resume.pdf dist/cam_soper_resume_ats.pdf
+          git add -f dist/cam_soper_resume.pdf
           git commit -m "Automated résumé PDF update" || echo "No changes to commit"
           git push || echo "Nothing to push"
 

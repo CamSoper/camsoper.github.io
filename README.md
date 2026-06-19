@@ -13,7 +13,6 @@ Jekyll theme renders it to HTML, and the résumé is also rendered to PDF.
 | `_layouts/`, `_includes/` | Custom theme (replaces the old `jekyll-theme-slate`) |
 | `assets/css/style.css` | Site styles (screen) |
 | `assets/css/print.css` | PDF overrides (loaded only by WeasyPrint) |
-| `assets/css/print-ats.css` | Plain black-on-white variant for maximum ATS compatibility |
 | `tools/build_pdf.py` | Renders `_site/resume/index.html` → PDF with real, selectable text |
 | `.github/workflows/pages-and-pdf.yml` | Builds site + PDF and deploys to GitHub Pages on every push |
 
@@ -26,7 +25,7 @@ Edit `resume.md` in plain Markdown. Section headings (`## Work Experience`),
 job titles (`### Senior Content Developer`), and the
 `**Company · Location** — *dates*` line are all styled by `assets/css/style.css`
 — don't add HTML. On push, GitHub Actions rebuilds the site and regenerates
-`dist/cam_soper_resume.pdf` (styled) and `dist/cam_soper_resume_ats.pdf` (plain).
+`dist/cam_soper_resume.pdf`.
 
 ## Run locally
 
