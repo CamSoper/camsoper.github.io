@@ -1,16 +1,16 @@
 ---
 layout: default
 nav: home
-title: "Cam Soper — Developer Educator"
-description: "Developer educator, community builder, and technical storyteller."
+title: "Cam Soper — Solutions Architect & AI Systems Builder"
+description: "Solutions architect and AI systems builder. I automate complex technical work and run Pulumi's documentation platform as a one-person practice."
 ---
 
 <div class="wrap">
 
   <section class="card band hero">
-    <div class="eyebrow">Developer Educator · Community Builder · Technical Storyteller</div>
+    <div class="eyebrow">Solutions Architect · AI Systems Builder · Technical Educator</div>
     <h1>Hi, I'm Cam.</h1>
-    <p>Throughout my career I've helped developers learn, build, and connect — through documentation, education, and community engagement. I specialize in taking complex ideas and turning them into something people actually understand.</p>
+    <p>I build AI-powered systems that let small teams punch well above their weight. At Pulumi I run the documentation platform as a one-person practice: the repo, the build pipelines, and an AI quality system that reviews every change. Before that, a decade-plus at Microsoft building developer tooling and training. I design the system, not just the content.</p>
     <div class="cta-row">
       <a class="btn btn-primary" href="{{ '/portfolio/' | relative_url }}">View my portfolio →</a>
       <a class="btn btn-ghost" href="{{ '/resume/' | relative_url }}">Read my résumé</a>
@@ -18,13 +18,13 @@ description: "Developer educator, community builder, and technical storyteller."
   </section>
 
   <section class="card prose">
-    <p>Explore my <a href="{{ '/portfolio/' | relative_url }}">portfolio</a> to see my work in action — examples of writing, training, and community engagement ranging from technical documentation to live-streamed events. I'm particularly proud of my <a href="https://www.youtube.com/watch?v=4kJGRuXZ4kg">custom smart smoker</a> built with .NET.</p>
-    <p>If you're looking for someone who can connect with developer audiences across media, drive community impact, and turn technical expertise into real-world value — let's talk.</p>
+    <p>Explore my <a href="{{ '/portfolio/' | relative_url }}">portfolio</a> for the work in detail: the AI review pipeline behind Pulumi's docs, a <a href="https://youtu.be/KKPevcH1WuE">Claude-powered doorman</a> that screens my front door, and a 130-automation smart home wired together with the same cost-aware engineering I bring to production systems.</p>
+    <p>If you need someone who can architect a system, automate it with AI, and then explain it clearly to the people who have to live with it, let's talk.</p>
 
     <div class="facts">
-      <div class="fact"><div class="big">10&nbsp;yrs</div><div class="cap">at Microsoft in developer education</div></div>
-      <div class="fact"><div class="big">1.1M+</div><div class="cap">annual pageviews across 467 topics</div></div>
-      <div class="fact"><div class="big">On .NET</div><div class="cap">Live — co-founder &amp; co-host</div></div>
+      <div class="fact"><div class="big">1-person</div><div class="cap">docs-ops platform I run at Pulumi</div></div>
+      <div class="fact"><div class="big">1.1M+</div><div class="cap">annual pageviews across 467 docs at Microsoft</div></div>
+      <div class="fact"><div class="big">130+</div><div class="cap">AI-driven home-automation systems</div></div>
     </div>
   </section>
 
