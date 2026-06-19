@@ -1,0 +1,9 @@
+<nav class="nav wrap">
+  <a class="brand" href="{{ '/' | relative_url }}">CAM SOPER</a>
+  <div class="nav-links">
+    <a href="{{ '/'          | relative_url }}" {% if page.nav == 'home'      %}class="active"{% endif %}>Home</a>
+    <a href="{{ '/resume/'   | relative_url }}" {% if page.nav == 'resume'    %}class="active"{% endif %}>Résumé</a>
+    <a href="{{ '/portfolio/'| relative_url }}" {% if page.nav == 'portfolio' %}class="active"{% endif %}>Portfolio</a>
+    <a class="pdf" href="{{ '/dist/cam_soper_resume.pdf' | relative_url }}">PDF ↓</a>
+  </div>
+</nav>

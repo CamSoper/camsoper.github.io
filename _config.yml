@@ -1,3 +1,31 @@
 title: "Cam Soper"
-description: "Developer Educator • Community Builder • Technical Storyteller"
-theme: jekyll-theme-slate
+description: "Developer Educator · Community Builder · Technical Storyteller"
+url: "https://camsoper.github.io"
+
+# No gem theme — this repo ships its own _layouts and assets/css.
+
+author:
+  name: "Cam Soper"
+  tagline: "Developer Educator · Open-Source Advocate · Technical Storyteller"
+
+contacts:
+  - { label: "cam.soper@outlook.com",      href: "mailto:cam.soper@outlook.com" }
+  - { label: "linkedin.com/in/camthegeek", href: "https://www.linkedin.com/in/camthegeek" }
+  - { label: "github.com/camsoper",        href: "https://github.com/camsoper" }
+  - { label: "camsoper.github.io",         href: "https://camsoper.github.io" }
+
+# Pretty URLs: /resume instead of /resume.html
+permalink: pretty
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+exclude:
+  - "tools/"
+  - "README.md"
+  - "PIPELINE.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "*.dc.html"
+  - "vendor/"

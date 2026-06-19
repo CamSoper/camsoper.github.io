@@ -1,0 +1,197 @@
+/* ============================================================
+   Cam Soper — site styles
+   Single cobalt accent on warm neutral. Direction C.
+   Markdown (kramdown) output is styled here so the .md files
+   stay plain Markdown.
+   ============================================================ */
+
+:root{
+  --ink:        #16181d;
+  --body:       #2c2f36;
+  --muted:      #5b606b;
+  --soft:       #4a4d54;
+  --faint:      #8a8d94;
+  --accent:     #2453e0;
+  --accent-2:   #1c45c0;
+  --accent-ink: #7aa0ff;   /* accent tint for use ON the dark band */
+  --paper:      #ffffff;
+  --bg:         #e7e5df;
+  --rule:       #e6e7ea;
+  --line:       #d4d6db;
+  --radius:     2px;
+  --shadow:     0 1px 4px rgba(0,0,0,.10);
+
+  --font-display: 'Archivo', system-ui, -apple-system, sans-serif;
+  --font-body:    'IBM Plex Sans', system-ui, -apple-system, sans-serif;
+  --font-mono:    'IBM Plex Mono', ui-monospace, 'SFMono-Regular', monospace;
+
+  --maxw: 880px;
+}
+
+*{ box-sizing:border-box; }
+html,body{ margin:0; padding:0; }
+body{
+  background:var(--bg);
+  color:var(--body);
+  font-family:var(--font-body);
+  font-size:16px;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+a{ color:inherit; text-decoration:none; }
+
+.wrap{ max-width:var(--maxw); margin:0 auto; padding-left:30px; padding-right:30px; }
+
+/* ---------- nav ---------- */
+.nav{
+  display:flex; justify-content:space-between; align-items:center;
+  padding-top:24px; padding-bottom:24px;
+}
+.brand{
+  font-family:var(--font-display); font-weight:800; font-size:16px;
+  letter-spacing:-.01em; color:var(--ink);
+}
+.nav-links{ display:flex; gap:26px; font-family:var(--font-mono); font-size:12.5px; color:var(--muted); }
+.nav-links a:hover{ color:var(--accent); }
+.nav-links a.active{ color:var(--ink); border-bottom:2px solid var(--accent); padding-bottom:2px; }
+.nav-links a.pdf{ color:var(--accent); }
+
+/* ---------- card surfaces ---------- */
+.card{
+  background:var(--paper); border-radius:var(--radius); box-shadow:var(--shadow);
+}
+.prose{ padding:48px 64px 56px; margin-top:24px; }
+
+/* ---------- dark banded header (home hero / resume / portfolio) ---------- */
+.band{
+  background:var(--ink); color:#fff; border-radius:var(--radius); box-shadow:var(--shadow);
+}
+.band h1{
+  font-family:var(--font-display); font-weight:800; letter-spacing:-.02em; line-height:1; margin:0;
+}
+.band .eyebrow{
+  font-family:var(--font-mono); font-size:12.5px; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--accent-ink);
+}
+.band .tagline{
+  font-family:var(--font-display); font-weight:600; font-size:15px; letter-spacing:.04em;
+  text-transform:uppercase; color:var(--accent-ink); margin-top:12px;
+}
+.band .contacts{
+  display:flex; flex-wrap:wrap; gap:7px 26px; margin-top:20px; font-size:13px; color:#c7c9cf;
+}
+.band .contacts a:hover{ color:#fff; }
+
+/* ---------- footer ---------- */
+.site-foot{
+  max-width:var(--maxw); margin:28px auto 60px; padding:0 30px;
+  text-align:center; font-family:var(--font-mono); font-size:11px; color:#9a9da4; line-height:1.7;
+}
+.site-foot a{ color:var(--accent); }
+
+/* ============================================================
+   RESUME — kramdown body styling
+   ============================================================ */
+.resume-header{ padding:46px 64px; }
+.resume-header h1{ font-size:46px; }
+
+.resume{ padding:40px 64px 60px; }
+.resume > p:first-child{ font-size:15px; line-height:1.65; color:#3a3d44; margin:0; }
+
+/* ## Section -> accent bar heading */
+.resume h2{
+  font-family:var(--font-display); font-weight:700; font-size:13px; line-height:1;
+  letter-spacing:.1em; text-transform:uppercase; color:var(--ink);
+  padding-left:13px; border-left:4px solid var(--accent); margin:38px 0 18px;
+}
+/* ### Job title */
+.resume h3{ font-family:var(--font-display); font-weight:700; font-size:18px; color:var(--ink); margin:28px 0 2px; }
+/* line right after a job title: "**Microsoft · Remote** — *Jun 2015 – May 2025*" */
+.resume h3 + p{ font-size:13.5px; color:var(--muted); margin:0; }
+.resume h3 + p em{ font-style:normal; font-family:var(--font-mono); font-size:12.5px; color:var(--accent); font-weight:600; }
+
+.resume p{ font-size:13.5px; line-height:1.55; color:var(--soft); margin:10px 0 0; }
+.resume ul{ margin:11px 0 0; padding-left:18px; }
+.resume ul li{ font-size:13.5px; line-height:1.5; color:var(--soft); margin-bottom:6px; }
+.resume strong{ color:var(--ink); }
+
+/* #### Skills & Technologies -> mono tag line */
+.resume h4{ margin:13px 0 0; font:600 11px/1 var(--font-mono); color:transparent; height:0; overflow:hidden; }
+.resume h4 + p{ font-family:var(--font-mono); font-size:11px; line-height:1.8; color:var(--faint); margin-top:0; }
+
+.resume hr{ border:0; border-top:1px solid var(--rule); margin:30px 0 0; }
+
+/* ============================================================
+   HOME
+   ============================================================ */
+.hero{ padding:64px 64px 58px; }
+.hero h1{ font-size:58px; line-height:1.02; margin:18px 0 0; }
+.hero p{ font-size:18px; line-height:1.6; color:#d2d4da; max-width:620px; margin:24px 0 0; }
+.hero .cta-row{ display:flex; flex-wrap:wrap; gap:14px; margin-top:34px; }
+.btn{
+  font-family:var(--font-display); font-weight:700; font-size:14px;
+  padding:13px 24px; border-radius:var(--radius); border:1px solid transparent;
+}
+.btn-primary{ background:var(--accent); color:#fff; }
+.btn-primary:hover{ background:var(--accent-2); }
+.btn-ghost{ background:transparent; color:#fff; border-color:#44474e; }
+.btn-ghost:hover{ border-color:var(--accent-ink); color:var(--accent-ink); }
+
+.prose p{ font-size:16px; line-height:1.7; color:#3a3d44; margin:0 0 20px; }
+.prose p:last-child{ margin-bottom:0; }
+.prose a{ color:var(--accent); border-bottom:1px solid #b9c8f5; }
+
+.facts{
+  display:grid; grid-template-columns:repeat(3,1fr); gap:1px;
+  background:var(--rule); border:1px solid var(--rule); border-radius:var(--radius);
+  margin-top:34px; overflow:hidden;
+}
+.facts .fact{ background:#fff; padding:22px 24px; }
+.facts .fact .big{ font-family:var(--font-display); font-weight:800; font-size:30px; color:var(--ink); }
+.facts .fact .cap{ font-size:12.5px; color:var(--muted); margin-top:4px; }
+
+.connect{
+  display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:18px;
+  padding:32px 64px; margin-top:24px;
+}
+.connect .h{ font-family:var(--font-display); font-weight:700; font-size:20px; color:var(--ink); }
+.connect .chips{ display:flex; gap:12px; }
+.connect .chips a{
+  font-family:var(--font-mono); font-size:12.5px; color:var(--ink);
+  border:1px solid var(--line); padding:11px 18px; border-radius:var(--radius);
+}
+.connect .chips a:hover{ border-color:var(--accent); color:var(--accent); }
+
+/* ============================================================
+   PORTFOLIO — card grid
+   ============================================================ */
+.portfolio .lead{ font-size:15.5px; line-height:1.6; color:#d2d4da; max-width:620px; margin:18px 0 0; }
+.portfolio h2{
+  font-family:var(--font-display); font-weight:700; font-size:13px; line-height:1;
+  letter-spacing:.1em; text-transform:uppercase; color:var(--ink);
+  padding-left:13px; border-left:4px solid var(--accent); margin:40px 0 8px;
+}
+.portfolio > section > p{ font-size:14px; line-height:1.6; color:var(--muted); margin:0 0 18px; padding-left:13px; }
+.portfolio > section:first-of-type > p:first-of-type{ margin-top:0; }
+
+.grid{ display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+.grid.one{ grid-template-columns:1fr; }
+.pcard{ border:1px solid var(--rule); border-radius:var(--radius); padding:18px 20px; }
+.pcard.full{ grid-column:1 / -1; }
+.pcard .t{ font-family:var(--font-display); font-weight:700; font-size:15px; color:var(--ink); }
+.pcard .d{ font-size:13px; line-height:1.5; color:var(--muted); margin-top:5px; }
+.pcard .links{ display:flex; flex-wrap:wrap; gap:14px; margin-top:11px; font-family:var(--font-mono); font-size:11.5px; color:var(--accent); }
+.pcard .links a:hover{ text-decoration:underline; }
+.pcard .links a::before{ content:"↳ "; }
+
+/* ---------- responsive ---------- */
+@media (max-width:720px){
+  .wrap{ padding-left:18px; padding-right:18px; }
+  .hero, .resume, .resume-header, .prose, .connect{ padding-left:28px; padding-right:28px; }
+  .hero h1{ font-size:40px; }
+  .resume-header h1, .band h1{ font-size:34px; }
+  .facts{ grid-template-columns:1fr; }
+  .grid{ grid-template-columns:1fr; }
+  .nav-links{ gap:16px; }
+}

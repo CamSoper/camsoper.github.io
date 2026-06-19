@@ -1,0 +1,7 @@
+<header class="card band resume-header">
+  <h1>{{ site.author.name | upcase }}</h1>
+  <div class="tagline">{{ site.author.tagline }}</div>
+  <div class="contacts">
+    {% for c in site.contacts %}<a href="{{ c.href }}">{{ c.label }}</a>{% endfor %}
+  </div>
+</header>

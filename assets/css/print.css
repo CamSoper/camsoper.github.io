@@ -1,0 +1,47 @@
+/* ============================================================
+   print.css — loaded ONLY when rendering the résumé to PDF
+   (WeasyPrint). Produces a clean, ATS-parseable single-column
+   document with real selectable text.
+   ============================================================ */
+
+@page{
+  size: Letter;
+  margin: 0.6in;
+}
+
+/* hide all web chrome */
+.nav, .site-foot, .nav-links, .pdf{ display:none !important; }
+
+body{ background:#fff; font-size:10.5pt; }
+
+/* the card becomes the page itself */
+.wrap{ max-width:none; padding:0; margin:0; }
+.resume.card{ box-shadow:none; border-radius:0; }
+.resume{ padding:0; }
+
+/* keep the dark name band (set print-color-adjust so it actually prints).
+   For a plain ATS-only variant, see print-ats.css below. */
+.resume-header{
+  background:#16181d !important;
+  -webkit-print-color-adjust:exact;
+  print-color-adjust:exact;
+  border-radius:0;
+  padding:24pt 28pt;
+  margin-bottom:18pt;
+}
+.resume-header h1{ font-size:30pt; }
+.resume-header .tagline{ font-size:11pt; }
+.resume-header .contacts{ font-size:9pt; }
+
+/* tighten type for paper */
+.resume h2{ font-size:11pt; margin:18pt 0 9pt; }
+.resume h3{ font-size:13pt; margin:13pt 0 1pt; }
+.resume p, .resume ul li{ font-size:9.5pt; line-height:1.4; }
+.resume h4 + p{ font-size:8pt; }
+
+/* links print as plain black text (URLs still readable + ATS-safe) */
+a{ color:#000 !important; text-decoration:none !important; border:0 !important; }
+
+/* never split a job entry or a heading across pages */
+.resume h2, .resume h3{ break-after:avoid; }
+.resume h3, .resume ul, .resume li{ break-inside:avoid; }

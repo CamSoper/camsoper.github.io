@@ -1,89 +1,157 @@
-# Portfolio  
+---
+layout: default
+nav: portfolio
+title: "Portfolio — Cam Soper"
+description: "Documentation, training, video, live events, and talks."
+---
 
-This portfolio showcases some of my favorite content projects, along with accompanying code repositories when applicable. Some projects feature dev container definitions that include all the tools and dependencies needed to run the code.
+<div class="wrap">
 
-## Documentation  
+  <header class="card band" style="padding:48px 64px;">
+    <h1 style="font-size:44px;">Portfolio</h1>
+    <p class="lead">A selection of my favorite content projects, with accompanying code repositories where applicable. Several feature dev container definitions with everything needed to run the code.</p>
+  </header>
 
-I was an author on the .NET docs team, where I wrote and edited documentation for .NET and ASP.NET Core across the entire documentation portfolio. I also created the entire set of .NET IoT documentation, bridging hardware integration with .NET development.
+  <article class="card prose portfolio">
 
-- **.NET IoT Libraries Documentation**  
-  *The complete documentation for the .NET IoT Libraries, covering hardware integration, libraries, and best practices.*  
-  [View Documentation](https://learn.microsoft.com/dotnet/iot/) • [Example Code](https://github.com/MicrosoftDocs/dotnet-iot-assets/)  
+    <section>
+      <h2>Documentation</h2>
+      <p>As an author on the .NET docs team I wrote and edited documentation across the portfolio, and created the entire set of .NET IoT documentation — bridging hardware integration with .NET development.</p>
+      <div class="grid one">
+        <div class="pcard">
+          <div class="t">.NET IoT Libraries Documentation</div>
+          <div class="d">The complete documentation for the .NET IoT Libraries, covering hardware integration, libraries, and best practices.</div>
+          <div class="links">
+            <a href="https://learn.microsoft.com/dotnet/iot/">View Documentation</a>
+            <a href="https://github.com/MicrosoftDocs/dotnet-iot-assets/">Example Code</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-## Training Content  
+    <section>
+      <h2>Training Content</h2>
+      <p>Primary author for Microsoft Learn training modules on .NET and ASP.NET Core, helping developers master essential concepts.</p>
+      <div class="grid">
+        <div class="pcard">
+          <div class="t">Persist &amp; retrieve relational data with EF Core</div>
+          <div class="d">Store and retrieve data efficiently using Entity Framework Core.</div>
+          <div class="links">
+            <a href="https://learn.microsoft.com/training/modules/persist-data-ef-core/">Training</a>
+            <a href="https://github.com/MicrosoftDocs/mslearn-persist-data-ef-core">Code / Dev Container</a>
+          </div>
+        </div>
+        <div class="pcard">
+          <div class="t">Secure a .NET web app with ASP.NET Core Identity</div>
+          <div class="d">Authentication and security practices for ASP.NET Core applications.</div>
+          <div class="links">
+            <a href="https://learn.microsoft.com/training/modules/secure-aspnet-core-identity/">Training</a>
+            <a href="https://github.com/MicrosoftDocs/mslearn-secure-aspnet-core-identity">Code / Dev Container</a>
+          </div>
+        </div>
+        <div class="pcard">
+          <div class="t">Implement resiliency in a cloud-native microservice</div>
+          <div class="d">Build fault-tolerant microservices using .NET.</div>
+          <div class="links">
+            <a href="https://learn.microsoft.com/training/modules/microservices-resiliency-aspnet-core/">Training</a>
+          </div>
+        </div>
+        <div class="pcard">
+          <div class="t">Understand ASP.NET Core fundamentals</div>
+          <div class="d">A complete learning path covering the foundations of ASP.NET Core development.</div>
+          <div class="links">
+            <a href="https://learn.microsoft.com/training/paths/aspnet-core-fundamentals/">Learning Path</a>
+          </div>
+        </div>
+        <div class="pcard full">
+          <div class="t">Null safety in C#</div>
+          <div class="d">Nullable reference types and how to write safer, more robust C# code.</div>
+          <div class="links">
+            <a href="https://learn.microsoft.com/training/modules/csharp-null-safety/">Training</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-I was the primary author for Microsoft Learn training modules relating to .NET, helping developers master essential .NET and ASP.NET Core concepts.  
+    <section>
+      <h2>Video Series</h2>
+      <p>Written and built several instructional video series, helping developers learn through clear, engaging content.</p>
+      <div class="grid">
+        <div class="pcard">
+          <div class="t">.NET IoT for Beginners</div>
+          <div class="d">An introduction to building IoT solutions with .NET, covering key concepts and hardware integration.</div>
+          <div class="links">
+            <a href="https://www.youtube.com/playlist?list=PLdo4fOcmZ0oWG4G6NxHV2yGEb42vQaFNc">YouTube</a>
+            <a href="https://github.com/dotnet/beginner-series/tree/main/IoT">Code / Diagrams</a>
+          </div>
+        </div>
+        <div class="pcard">
+          <div class="t">Entity Framework Core for Beginners</div>
+          <div class="d">A beginner-friendly guide to EF Core, with a dev container featuring an interactive Code Tour walking through every step.</div>
+          <div class="links">
+            <a href="https://www.youtube.com/playlist?list=PLdo4fOcmZ0oXCPdC3fTFA3Z79-eVH3K-s">YouTube</a>
+            <a href="https://github.com/MicrosoftDocs/ef-core-for-beginners">Code / Dev Container</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-- **Persist and retrieve relational data by using Entity Framework Core**  
-  *How to store and retrieve data efficiently using Entity Framework Core.*  
-  [View Training](https://learn.microsoft.com/training/modules/persist-data-ef-core/) • [Example Code/Dev Container](https://github.com/MicrosoftDocs/mslearn-persist-data-ef-core)
+    <section>
+      <h2>Live Learning Events</h2>
+      <p>Contributed to <strong>Let's Learn .NET</strong>, an interactive series helping developers of all levels explore .NET through hands-on sessions.</p>
+      <div class="grid">
+        <div class="pcard">
+          <div class="t">Let's Learn .NET — IoT</div>
+          <div class="d">A deep dive into building IoT solutions with .NET, featuring live demos and expert guidance.</div>
+          <div class="links"><a href="https://www.youtube.com/watch?v=sKaSBh1M4M4">YouTube</a></div>
+        </div>
+        <div class="pcard">
+          <div class="t">Let's Learn .NET — Web Development</div>
+          <div class="d">An engaging session on web development with .NET, covering essential concepts and best practices.</div>
+          <div class="links"><a href="https://www.youtube.com/watch?v=vuNRDdu1vJQ">YouTube</a></div>
+        </div>
+      </div>
+    </section>
 
-- **Secure a .NET web app with the ASP.NET Core Identity framework**  
-  *Authentication and security practices for ASP.NET Core applications.*  
-  [View Training](https://learn.microsoft.com/training/modules/secure-aspnet-core-identity/) • [Example Code/Dev Container](https://github.com/MicrosoftDocs/mslearn-secure-aspnet-core-identity)  
-  
-- **Implement resiliency in a cloud-native .NET microservice**  
-  *How to build fault-tolerant microservices using .NET.*  
-  [View Training](https://learn.microsoft.com/training/modules/microservices-resiliency-aspnet-core/)
+    <section>
+      <h2>Live Streaming</h2>
+      <p>Co-founded and co-host <strong>On .NET Live</strong>, a community-driven stream where .NET developers, MVPs, and industry experts share insights, projects, and innovations. <a href="https://www.youtube.com/playlist?list=PLdo4fOcmZ0oV2fcY7wsQHx4RNWXEDKgm4">Watch past episodes on YouTube →</a></p>
+    </section>
 
-- **Understand ASP.NET Core fundamentals**  
-  *A complete learning path covering the foundations of ASP.NET Core development.*  
-  [View Training](https://learn.microsoft.com/training/paths/aspnet-core-fundamentals/)  
+    <section>
+      <h2>Conference Talks</h2>
+      <p>Spoken at many conferences on .NET, IoT, and developer education. Two representative talks with public recordings:</p>
+      <div class="grid">
+        <div class="pcard">
+          <div class="t">My House Runs .NET</div>
+          <div class="d">Smart home automation — integrating .NET Core with Hubitat for connected smart-home solutions.</div>
+          <div class="links"><a href="https://www.infoq.com/presentations/smart-home-net-core-hubitat/">InfoQ</a></div>
+        </div>
+        <div class="pcard">
+          <div class="t">Have Your Pi and Eat It Too</div>
+          <div class="d">A deep dive into leveraging .NET Core on Raspberry Pi for building IoT applications.</div>
+          <div class="links"><a href="https://www.infoq.com/presentations/net-core-iot/">InfoQ</a></div>
+        </div>
+      </div>
+    </section>
 
-- **Null safety in C#**  
-  *Nullable reference types and how to write safer, more robust C# code.*  
-  [View Training](https://learn.microsoft.com/training/modules/csharp-null-safety/)  
+    <section>
+      <h2>Guest Appearances</h2>
+      <p>In addition to hosting developer-focused content, I've appeared on <strong>On .NET</strong> to showcase my IoT projects with .NET.</p>
+      <div class="grid">
+        <div class="pcard">
+          <div class="t">BBQ, Bots, and .NET Core</div>
+          <div class="d">A fun and technical deep dive into using .NET for BBQ automation.</div>
+          <div class="links"><a href="https://www.youtube.com/watch?v=4kJGRuXZ4kg">YouTube</a></div>
+        </div>
+        <div class="pcard">
+          <div class="t">Home Automation with Hubitat and .NET Core</div>
+          <div class="d">Exploring how .NET Core can power home automation solutions with Hubitat.</div>
+          <div class="links"><a href="https://www.youtube.com/watch?v=FyVmAxuc32M">YouTube</a></div>
+        </div>
+      </div>
+    </section>
 
-## Video Series  
+  </article>
 
-I've written and built several instructional video series, helping developers learn through clear, engaging content.  
-
-- **.NET IoT for Beginners**  
-  *An introduction to building IoT solutions with .NET, covering key concepts and hardware integration.*  
-  [Watch on YouTube](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oWG4G6NxHV2yGEb42vQaFNc) • [Example Code/Diagrams](https://github.com/dotnet/beginner-series/tree/main/IoT)  
-
-- **Entity Framework Core for Beginners**  
-  *A beginner-friendly guide to using Entity Framework Core for data persistence and management. The dev container for this series features an interactive Code Tour walking the learner hands-on through every step.*  
-  [Watch on YouTube](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oXCPdC3fTFA3Z79-eVH3K-s) • [Example Code/Dev Container](https://github.com/MicrosoftDocs/ef-core-for-beginners)
-
-## Live Learning Events  
-
-I've contributed to **Let's Learn .NET**, an interactive learning series designed to help developers of all skill levels explore .NET technologies through hands-on sessions.  
-
-- **Let's Learn .NET – IoT**  
-  *A deep dive into building IoT solutions with .NET, featuring live demos and expert guidance.*  
-  [Watch on YouTube](https://www.youtube.com/watch?v=sKaSBh1M4M4)  
-
-- **Let's Learn .NET – Web Development**  
-  *An engaging session on web development with .NET, covering essential concepts and best practices.*  
-  [Watch on YouTube](https://www.youtube.com/watch?v=vuNRDdu1vJQ)  
-
-## Live Streaming  
-
-I co-founded and co-host **On .NET Live**, a community-driven stream where .NET developers, MVPs, and industry experts share insights, projects, and innovations. Our mission is to enable the .NET community to achieve more by fostering community engagement and collaboration.  
-
-Watch past episodes on [YouTube](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oV2fcY7wsQHx4RNWXEDKgm4) or catch upcoming streams live!  
-
-## Conference Talks  
-
-I've spoken at many conferences, sharing insights on .NET, IoT, and developer education. Here are a couple of representative talks with publicly available recordings:  
-
-- **My House Runs .NET - Smart Home Automation with .NET Core and Azure**  
-  *Explores integrating .NET Core with Hubitat for building connected smart home solutions.*  
-  [Watch on InfoQ](https://www.infoq.com/presentations/smart-home-net-core-hubitat/)  
-
-- **Have Your Pi and Eat It Too: .NET Core on Raspberry Pi**  
-  *A deep dive into leveraging .NET Core for building IoT applications.*  
-  [Watch on InfoQ](https://www.infoq.com/presentations/net-core-iot/)  
-
-## Guest Appearances  
-
-In addition to hosting developer-focused content, I’ve appeared on **On .NET** to showcase my IoT projects with .NET.  
-
-- **BBQ, Bots, and .NET Core**  
-  *A fun and technical deep dive into using .NET for BBQ automation.*  
-  [Watch on YouTube](https://www.youtube.com/watch?v=4kJGRuXZ4kg)  
-
-- **Home Automation with Hubitat and .NET Core**  
-  *Exploring how .NET Core can power home automation solutions with Hubitat.*  
-  [Watch on YouTube](https://www.youtube.com/watch?v=FyVmAxuc32M)  
+</div>
