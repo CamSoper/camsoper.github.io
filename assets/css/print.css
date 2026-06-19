@@ -29,9 +29,12 @@ body{ background:#fff; font-size:10.5pt; }
   padding:24pt 28pt;
   margin-bottom:18pt;
 }
-.resume-header h1{ font-size:30pt; }
-.resume-header .tagline{ font-size:11pt; }
-.resume-header .contacts{ font-size:9pt; }
+/* the band is dark, so its text must be light. Set it here rather than
+   relying on style.css, which WeasyPrint does not load during PDF render. */
+.resume-header h1{ font-size:30pt; color:#fff !important; }
+.resume-header .tagline{ font-size:11pt; color:#c7c9cf !important; }
+.resume-header .contacts{ font-size:9pt; color:#c7c9cf !important; }
+.resume-header .contacts a{ color:#c7c9cf !important; }  /* beats the global a{} below */
 
 /* tighten type for paper */
 .resume h2{ font-size:11pt; margin:18pt 0 9pt; }
