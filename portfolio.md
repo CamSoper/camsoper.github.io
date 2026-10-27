@@ -27,8 +27,8 @@ description: "AI agent systems, talks and livestreams, training, developer platf
           </div>
         </div>
         <div class="pcard">
-          <div class="t">Personal AI operations system</div>
-          <div class="d">The assistant that runs my day: a morning brief, an evening shutdown, a rescue command that sizes one next action to the time actually left, backlog triage, and a monthly retro where the system reads its own telemetry. Built as Claude Code plugins and scheduled routines over calendar, task, and mail connectors, and published as a scrubbed, MIT-licensed playbook that works with any assistant.</div>
+          <div class="t">A shareable AI-assistant playbook</div>
+          <div class="d">A PII-stripped distillation of the private AI assistant system I run day to day: the patterns that survived (one directive a morning, a shutdown ritual, a rescue command sized to the time left, a monthly retro that reads its own telemetry) written up as a playbook, plus a template Claude Code plugin anyone can configure. The public version is for sharing and teaching; my own system is wired to my accounts and stays private.</div>
           <div class="links">
             <a href="https://github.com/CamSoper/adhd-ops">GitHub</a>
             <a href="https://github.com/CamSoper/adhd-ops/blob/main/PLAYBOOK.md">Playbook</a>
