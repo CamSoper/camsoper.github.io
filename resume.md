@@ -17,14 +17,14 @@ I build AI agent systems and teach developers to build them. I don't stay in one
 
 ## Talks, Streams & Writing
 
-- **Speaking:** .NET Conf, KCDC, CodeMash, That Conference, DevUp, Code PaLOUsa, Cream City Code, Little Rock Tech Fest, Nashville Tech Fest, and local user groups. Selected talks:
-  - "Infrastructure as (Actual) Code with C# 15 and .NET 11" (.NET Conf 2026 Community Days, upcoming)
-  - "My House Runs .NET" (.NET Conf 2019, DevUp)
-  - "Have Your Pi and Eat It Too: .NET Core on Raspberry Pi" (.NET Conf 2018, DevUp)
-  - "Smokin' .NET to Perfection: Building a smart wood pellet smoker with Raspberry Pi and .NET"
-  - "How Insightful! Grok Your ASP.NET Core Web Apps with Application Insights"
+- **Speaking:** 15+ conference sessions at .NET Conf, KCDC, CodeMash, That Conference, DevUp, TechBash, Code PaLOUsa, Music City Tech, Beer City Code, Cream City Code, Little Rock Tech Fest, and local user groups. Selected talks:
+  - "Infrastructure as (Actual) Code with C# 15 and .NET 11" (.NET Conf 2026 Community Days, Nov 13, upcoming)
+  - "Have Your Pi and Eat It Too: .NET Core on Raspberry Pi" (.NET Conf 2018; CodeMash, Beer City Code, Code PaLOUsa, DevUp, TechBash 2019)
+  - "My House Runs .NET: Smart Home Automation with .NET Core and Azure" (.NET Conf, Code PaLOUsa, Music City Tech, DevUp 2019)
+  - "How Insightful! Grok Your ASP.NET Core Web Apps with Application Insights" (KCDC, DevUp, TechBash 2019)
+  - "Smokin' .NET to Perfection: Building a smart wood pellet smoker with Raspberry Pi and .NET" (KCDC 2021)
 - **Streaming and events:** co-founded and co-hosted [On .NET Live](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oV2fcY7wsQHx4RNWXEDKgm4), the weekly community stream on the official .NET channels, from launch until the show wrapped; helped plan and host .NET Conf; taught Let's Learn .NET and Learn Live workshops.
-- **Video:** wrote and recorded the .NET IoT for Beginners and Entity Framework Core for Beginners series.
+- **Video:** wrote and recorded the Entity Framework Core for Beginners (120K+ views) and .NET IoT for Beginners series on the official .NET YouTube channel.
 - **Writing:** the .NET IoT documentation, most of Microsoft Learn's .NET training modules, a 467-article Azure and .NET docs portfolio, Pulumi's documentation platform, and "[Treating Prompts Like Code](https://www.pulumi.com/blog/treating-prompts-like-code/)" on the Pulumi blog.
 
 ## Work Experience

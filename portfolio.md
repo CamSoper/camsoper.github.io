@@ -62,11 +62,11 @@ description: "AI agent systems, talks and livestreams, training, developer platf
 
     <section>
       <h2>Talks &amp; Streaming</h2>
-      <p>Co-founded and co-hosted <strong>On .NET Live</strong>, the weekly community stream on the official .NET channels, from launch until the show wrapped, and helped plan and host .NET Conf. I've spoken at .NET Conf, KCDC, CodeMash, That Conference, DevUp, Code PaLOUsa, Cream City Code, Little Rock Tech Fest, Nashville Tech Fest, local user groups, and Microsoft's live learning shows. A selection:</p>
+      <p>Co-founded and co-hosted <strong>On .NET Live</strong>, the weekly community stream on the official .NET channels, from launch until the show wrapped, and helped plan and host .NET Conf. 15+ conference sessions at .NET Conf, KCDC, CodeMash, That Conference, DevUp, TechBash, Code PaLOUsa, Music City Tech, Beer City Code, Cream City Code, Little Rock Tech Fest, and local user groups, plus Microsoft's live learning shows. A selection:</p>
       <div class="grid">
         <div class="pcard">
           <div class="t">Infrastructure as (Actual) Code with C# 15 and .NET 11</div>
-          <div class="d">Upcoming session at .NET Conf 2026 Community Days.</div>
+          <div class="d">Upcoming session at .NET Conf 2026 Community Days, November 13.</div>
         </div>
         <div class="pcard">
           <div class="t">On .NET Live</div>
@@ -78,7 +78,7 @@ description: "AI agent systems, talks and livestreams, training, developer platf
         </div>
         <div class="pcard">
           <div class="t">My House Runs .NET</div>
-          <div class="d">Running a smart home with .NET Core and Azure, at .NET Conf 2019 and in a longer cut at DevUp.</div>
+          <div class="d">Running a smart home with .NET Core and Azure. Given at .NET Conf, Code PaLOUsa, Music City Tech, and DevUp in 2019.</div>
           <div class="links">
             <a href="https://learn.microsoft.com/shows/dotnetconf-2019/b331">.NET Conf 2019</a>
             <a href="https://www.infoq.com/presentations/smart-home-net-core-hubitat/">DevUp (InfoQ)</a>
@@ -86,7 +86,7 @@ description: "AI agent systems, talks and livestreams, training, developer platf
         </div>
         <div class="pcard">
           <div class="t">Have Your Pi and Eat It Too</div>
-          <div class="d">Building IoT applications with .NET Core on Raspberry Pi, at .NET Conf 2018 and DevUp.</div>
+          <div class="d">Building IoT applications with .NET Core on Raspberry Pi. My most-requested talk: .NET Conf 2018, then CodeMash, Beer City Code, Code PaLOUsa, DevUp, and TechBash in 2019.</div>
           <div class="links">
             <a href="https://learn.microsoft.com/shows/dotnetconf-2018/s314">.NET Conf 2018</a>
             <a href="https://www.infoq.com/presentations/net-core-iot/">DevUp (InfoQ)</a>
@@ -95,7 +95,7 @@ description: "AI agent systems, talks and livestreams, training, developer platf
         </div>
         <div class="pcard">
           <div class="t">Smokin' .NET to Perfection</div>
-          <div class="d">Building a smart wood pellet smoker with Raspberry Pi and .NET: control loops explained through cruise control, plus the hardware for driving a blower, auger, and igniter and reading temperature probes.</div>
+          <div class="d">Building a smart wood pellet smoker with Raspberry Pi and .NET, at KCDC 2021: control loops explained through cruise control, plus the hardware for driving a blower, auger, and igniter and reading temperature probes.</div>
           <div class="links">
             <a href="https://github.com/CamSoper/smokin-dotnet">Talk materials</a>
             <a href="https://github.com/CamSoper/Inferno">Inferno</a>
@@ -103,7 +103,7 @@ description: "AI agent systems, talks and livestreams, training, developer platf
         </div>
         <div class="pcard">
           <div class="t">How Insightful!</div>
-          <div class="d">Grok your ASP.NET Core web apps with Application Insights: server and client telemetry, and snapshot debugging of production exceptions.</div>
+          <div class="d">Grok your ASP.NET Core web apps with Application Insights: server and client telemetry, and snapshot debugging of production exceptions. Given at KCDC, DevUp, and TechBash in 2019.</div>
           <div class="links">
             <a href="https://github.com/CamSoper/how-insightful">Talk materials</a>
           </div>
@@ -135,7 +135,7 @@ description: "AI agent systems, talks and livestreams, training, developer platf
         </div>
         <div class="pcard">
           <div class="t">Entity Framework Core for Beginners</div>
-          <div class="d">A beginner-friendly video series, with a dev container featuring an interactive Code Tour through every step.</div>
+          <div class="d">A beginner-friendly video series on the official .NET channel with 120K+ views, plus a dev container featuring an interactive Code Tour through every step.</div>
           <div class="links">
             <a href="https://www.youtube.com/playlist?list=PLdo4fOcmZ0oXCPdC3fTFA3Z79-eVH3K-s">YouTube</a>
             <a href="https://github.com/MicrosoftDocs/ef-core-for-beginners">Code / Dev Container</a>
