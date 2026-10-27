@@ -62,7 +62,7 @@ description: "AI agent systems, talks and livestreams, training, developer platf
 
     <section>
       <h2>Talks &amp; Streaming</h2>
-      <p>Co-founded and co-hosted <strong>On .NET Live</strong>, the weekly community stream on the official .NET channels, from launch until the show wrapped, and helped plan and host .NET Conf. 15+ conference sessions at .NET Conf, KCDC, CodeMash, DevUp, TechBash, Code PaLOUsa, Music City Tech, Beer City Code, Cream City Code, Little Rock Tech Fest, and local user groups, plus Microsoft's live learning shows. A selection:</p>
+      <p>Co-founded and co-hosted <strong>On .NET Live</strong>, the weekly community stream on the official .NET channels, from launch until the show wrapped, helped plan and host .NET Conf, and ran hands-on training labs at Microsoft Build. 15+ conference sessions at .NET Conf, KCDC, CodeMash, DevUp, TechBash, Code PaLOUsa, Music City Tech, Beer City Code, Cream City Code, Little Rock Tech Fest, and local user groups, plus Microsoft's live learning shows. A selection:</p>
       <div class="grid">
         <div class="pcard">
           <div class="t">Infrastructure as (Actual) Code with C# 15 and .NET 11</div>
