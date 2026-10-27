@@ -74,8 +74,7 @@ Consulted on mission-critical .NET and Azure systems for federal agencies and Fo
 
 ## Selected Projects
 
-- **[claude-agent](https://github.com/CamSoper/claude-agent):** a container that gives Claude Code its own long-lived machine and a schedule, so agents do real work on a cron.
-- **[Personal AI operations system](https://github.com/CamSoper/adhd-ops):** Claude Code plugins that run my day over calendar, task, and mail connectors: a morning brief, an evening shutdown, backlog triage, and a monthly retro where the system reads its own telemetry. Published as a scrubbed, MIT-licensed playbook.
+- **[Personal AI operations system](https://github.com/CamSoper/adhd-ops):** Claude Code plugins and scheduled routines that run my day over calendar, task, and mail connectors: a morning brief, an evening shutdown, backlog triage, and a monthly retro where the system reads its own telemetry. Published as a scrubbed, MIT-licensed playbook.
 - **Doorbot, an AI doorman:** a Claude-powered agent that reads the doorbell camera, talks with visitors, classifies intent, dismisses solicitors, routes legitimate callers to a human, and resists prompt injection.
 - **Open source:** [`puppet`](https://github.com/CamSoper/puppet), a .NET home-automation framework (110+ stars); [`Inferno`](https://github.com/CamSoper/Inferno), a .NET-powered smart smoker; and [`shark2mqtt`](https://github.com/CamSoper/shark2mqtt), a Home Assistant device bridge in Python.
 
