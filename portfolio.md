@@ -19,11 +19,11 @@ description: "AI agent systems, talks and livestreams, training, developer platf
       <p>Systems that pair deterministic tooling with LLM judgment, built to let one person operate like a team, and to spend tokens like they cost money, because they do.</p>
       <div class="grid">
         <div class="pcard">
-          <div class="t">Treating Prompts Like Code</div>
-          <div class="d">How I built a modular AI workflow to scale a solo docs practice: reusable skills, shared context as a single source of truth, version control, and CI/CD. Adopted and extended by engineering and marketing.</div>
+          <div class="t">code-walkthrough: guided code tours</div>
+          <div class="d">A Claude Code skill I built that turns a repo, a directory, or a pull request into a paged walkthrough: the exact code at a pinned commit, a map of where it lives, diagrams linked to the lines they describe, and answer-first checks after every chapter. A script copies every snippet from git, so the model can't invent code or line numbers. Every walkthrough on this site came out of it.</div>
           <div class="links">
-            <a href="https://www.pulumi.com/blog/treating-prompts-like-code/">Pulumi Blog</a>
-            <a href="https://github.com/pulumi/docs/tree/master/.claude/commands">The skills (open source)</a>
+            <a href="https://github.com/CamSoper/adhd-ops/tree/main/code-walkthrough">How it works</a>
+            <a href="https://claude.ai/artifact/Gp4Hjvf89zeN6irZhUUScV">See one: Inferno</a>
           </div>
         </div>
         <div class="pcard">
