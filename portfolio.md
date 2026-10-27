@@ -2,14 +2,14 @@
 layout: default
 nav: portfolio
 title: "Portfolio — Cam Soper"
-description: "AI systems, developer platforms, documentation, and a heavily automated house."
+description: "AI systems, developer platforms, documentation, training, live streams, and a heavily automated house."
 ---
 
 <div class="wrap">
 
   <header class="card band" style="padding:48px 64px;">
     <h1 style="font-size:44px;">Portfolio</h1>
-    <p class="lead">Selected work — AI systems, developer platforms, documentation, and the occasional over-engineered house. Code and write-ups are linked where they're public.</p>
+    <p class="lead">Selected work: AI systems, developer platforms, documentation, training, live streams, and the occasional over-engineered house. Code and write-ups are linked where they're public.</p>
   </header>
 
   <article class="card prose portfolio">
@@ -31,6 +31,18 @@ description: "AI systems, developer platforms, documentation, and a heavily auto
           <div class="d">A multi-camera vision pipeline (Gemini, structured-JSON output) that reconstructs an event timeline from front-of-house cameras, classifies deliveries vs. solicitors vs. residents, and fires package reminders. A template rule does the dispatch decision instead of a second model call, with cost controls and false-positive guards built in.</div>
         </div>
         <div class="pcard">
+          <div class="t">adhd-ops — a personal AI operations system</div>
+          <div class="d">The public, PII-scrubbed version of the assistant that runs my day: a morning brief, an evening shutdown, a rescue command that sizes one next action to the time actually left, backlog triage, and a monthly retro where the system reads its own telemetry. Built as Claude Code plugins over calendar, task, and mail connectors, with a written playbook that works with any assistant.</div>
+          <div class="links">
+            <a href="https://github.com/CamSoper/adhd-ops">GitHub</a>
+            <a href="https://github.com/CamSoper/adhd-ops/blob/main/PLAYBOOK.md">Playbook</a>
+          </div>
+        </div>
+        <div class="pcard">
+          <div class="t">Self-hosted MCP platform</div>
+          <div class="d">A homelab MCP portal that puts eight upstream servers (Home Assistant, MQTT, Node-RED, a GitHub-backed state store, and more) behind one authenticated endpoint over Cloudflare Tunnels. Containers, tunnels, and DNS are all managed as infrastructure as code, so AI agents can work against my house the same way they work against a cloud API.</div>
+        </div>
+        <div class="pcard">
           <div class="t">claude-agent</div>
           <div class="d">A container image for running scheduled Claude Code jobs against a Claude subscription — agentic automation on a cron, not a chat window.</div>
           <div class="links">
@@ -49,8 +61,12 @@ description: "AI systems, developer platforms, documentation, and a heavily auto
 
     <section>
       <h2>Developer Platforms &amp; Docs-Ops</h2>
-      <p>At Pulumi I own the documentation platform end to end: the <code>pulumi/docs</code> repo, the build pipeline, the information architecture, and the quality gate every change ships through — for human readers and for the agents that now consume docs just as heavily.</p>
+      <p>At Pulumi I build automated quality analysis for pull requests on the internal systems engineering team, and I still own the documentation platform I built: the <code>pulumi/docs</code> repo, the build pipeline, the information architecture, and the quality gate every change ships through. The docs serve two audiences: human readers and the agents that increasingly read them first.</p>
       <div class="grid">
+        <div class="pcard">
+          <div class="t">Automated PR quality analysis</div>
+          <div class="d">Once a pull request is open, whether a person or a coding agent wrote it: is it any good, and how fast can it merge safely? I build the automated analysis and blocking merge gates that answer that, so reviews stop being the bottleneck and the same bar applies to human and bot authors alike.</div>
+        </div>
         <div class="pcard">
           <div class="t">AI docs quality pipeline &amp; skill catalog</div>
           <div class="d">Deterministic linting (Vale, markdownlint) plus multi-model LLM fact-checking, scoped to changed lines and wired into CI/CD — cited internally as the company's reference implementation for content quality. The underlying skills are open source in the docs repo.</div>
@@ -61,7 +77,7 @@ description: "AI systems, developer platforms, documentation, and a heavily auto
         </div>
         <div class="pcard">
           <div class="t">Agent-consumable documentation</div>
-          <div class="d">Clean <code>.md</code> URLs, a curated <code>llms.txt</code>, a JSON sitemap, and versioned provider docs in the Registry — so coding agents retrieve current, authoritative Pulumi docs instead of stale training data.</div>
+          <div class="d">Every page served as Markdown (via <code>.md</code> URLs or <code>Accept: text/markdown</code>), a curated <code>llms.txt</code>, a JSON sitemap, Context7 onboarding, and versioned provider docs in the Registry, so coding agents retrieve current, authoritative Pulumi docs instead of stale training data.</div>
           <div class="links">
             <a href="https://www.pulumi.com/blog/previous-version-docs-are-now-available-in-the-pulumi-registry/">Registry versioned docs</a>
           </div>
@@ -75,12 +91,15 @@ description: "AI systems, developer platforms, documentation, and a heavily auto
       <div class="grid">
         <div class="pcard">
           <div class="t">puppet</div>
-          <div class="d">A .NET framework for automating Hubitat Elevation — my most-used open-source project (100+ stars).</div>
-          <div class="links"><a href="https://github.com/CamSoper/puppet">GitHub</a></div>
+          <div class="d">A .NET framework for automating Hubitat Elevation, and my most-starred open-source project (110+ stars). Featured on Microsoft's On .NET in "Home automation with Hubitat and .NET Core."</div>
+          <div class="links">
+            <a href="https://github.com/CamSoper/puppet">GitHub</a>
+            <a href="https://learn.microsoft.com/shows/on-dotnet/home-automation-with-hubitat-and-net-core">On .NET</a>
+          </div>
         </div>
         <div class="pcard">
           <div class="t">shark2mqtt</div>
-          <div class="d">A Python bridge exposing Shark robot vacuums to Home Assistant over MQTT.</div>
+          <div class="d">A Python bridge exposing Shark robot vacuums to Home Assistant over MQTT, built with Claude Code and picked up by the Home Assistant community.</div>
           <div class="links"><a href="https://github.com/CamSoper/shark2mqtt">GitHub</a></div>
         </div>
         <div class="pcard">
@@ -93,22 +112,26 @@ description: "AI systems, developer platforms, documentation, and a heavily auto
         </div>
         <div class="pcard">
           <div class="t">My House Runs .NET</div>
-          <div class="d">A conference talk on integrating .NET with a connected smart home.</div>
-          <div class="links"><a href="https://www.infoq.com/presentations/smart-home-net-core-hubitat/">InfoQ</a></div>
+          <div class="d">A conference talk on running a smart home with .NET Core and Azure, given at .NET Conf 2019 and in a longer cut at DevUp.</div>
+          <div class="links">
+            <a href="https://learn.microsoft.com/shows/dotnetconf-2019/b331">.NET Conf 2019</a>
+            <a href="https://www.infoq.com/presentations/smart-home-net-core-hubitat/">DevUp (InfoQ)</a>
+          </div>
         </div>
       </div>
     </section>
 
     <section>
       <h2>Documentation</h2>
-      <p>As an author on the .NET docs team I created the entire set of .NET IoT documentation, bridging hardware integration with .NET development.</p>
+      <p>As an author on the .NET docs team I created the entire set of .NET IoT documentation, bridging hardware integration with .NET development. I still contribute to it: the .NET 10 update in March 2026 was mine.</p>
       <div class="grid one">
         <div class="pcard">
           <div class="t">.NET IoT Libraries Documentation</div>
-          <div class="d">Complete documentation for the .NET IoT Libraries — hardware integration, libraries, and best practices.</div>
+          <div class="d">The hub, overview, Sense HAT quickstart, six hands-on tutorials (GPIO, I²C sensors, LCDs, ADCs), plus deployment, debugging, and USB bridge guides, with all the samples and wiring diagrams.</div>
           <div class="links">
             <a href="https://learn.microsoft.com/dotnet/iot/">View Documentation</a>
             <a href="https://github.com/MicrosoftDocs/dotnet-iot-assets/">Example Code</a>
+            <a href="https://github.com/dotnet/samples/tree/main/iot/cheesecave.net">Cheese Cave sample</a>
           </div>
         </div>
       </div>
@@ -148,27 +171,50 @@ description: "AI systems, developer platforms, documentation, and a heavily auto
             <a href="https://learn.microsoft.com/training/paths/aspnet-core-fundamentals/">Learning Path</a>
           </div>
         </div>
+        <div class="pcard">
+          <div class="t">More Microsoft Learn modules</div>
+          <div class="d">Minimal APIs with a database, ASP.NET Core middleware, dependency injection, publishing to Azure, and a Blazor Connect Four game for beginners.</div>
+          <div class="links">
+            <a href="https://learn.microsoft.com/training/modules/build-web-api-minimal-database/">Minimal API + DB</a>
+            <a href="https://learn.microsoft.com/training/modules/aspnetcore-middleware/">Middleware</a>
+            <a href="https://learn.microsoft.com/training/modules/configure-dependency-injection/">DI</a>
+            <a href="https://learn.microsoft.com/training/modules/publish-aspnetcore-app/">Publish</a>
+            <a href="https://learn.microsoft.com/training/modules/dotnet-connect-four/">Connect Four</a>
+          </div>
+        </div>
       </div>
     </section>
 
     <section>
       <h2>Talks &amp; Streaming</h2>
-      <p>Co-founded and co-hosted <strong>On .NET Live</strong>, a community stream for .NET developers, and spoke at conferences on .NET, IoT, and developer education.</p>
+      <p>Co-founded and co-hosted <strong>On .NET Live</strong>, the weekly community stream on the official .NET channels, from its start until it wrapped in 2025, and spoke at .NET Conf, DevUp, and Microsoft's live learning shows.</p>
       <div class="grid">
         <div class="pcard">
           <div class="t">On .NET Live</div>
-          <div class="d">A community-driven stream where .NET developers, MVPs, and industry experts shared insights and projects.</div>
-          <div class="links"><a href="https://www.youtube.com/playlist?list=PLdo4fOcmZ0oV2fcY7wsQHx4RNWXEDKgm4">YouTube</a></div>
+          <div class="d">A weekly live show where community developers, MVPs, and Microsoft engineers demoed their projects, plus earlier appearances on The .NET Docs Show. Favorite episode: Scott Hanselman upgrading his apps live.</div>
+          <div class="links">
+            <a href="https://www.youtube.com/playlist?list=PLdo4fOcmZ0oV2fcY7wsQHx4RNWXEDKgm4">YouTube</a>
+            <a href="https://youtu.be/aKlT905fSAA">Hanselman upgrades</a>
+          </div>
         </div>
         <div class="pcard">
           <div class="t">Have Your Pi and Eat It Too</div>
-          <div class="d">Leveraging .NET Core on Raspberry Pi to build IoT applications.</div>
-          <div class="links"><a href="https://www.infoq.com/presentations/net-core-iot/">InfoQ</a></div>
+          <div class="d">Leveraging .NET Core on Raspberry Pi to build IoT applications, at .NET Conf 2018 and DevUp.</div>
+          <div class="links">
+            <a href="https://learn.microsoft.com/shows/dotnetconf-2018/s314">.NET Conf 2018</a>
+            <a href="https://www.infoq.com/presentations/net-core-iot/">DevUp (InfoQ)</a>
+            <a href="https://github.com/CamSoper/have-your-pi">Code</a>
+          </div>
         </div>
         <div class="pcard">
-          <div class="t">Let's Learn .NET — IoT</div>
-          <div class="d">An interactive, hands-on session building IoT solutions with .NET.</div>
-          <div class="links"><a href="https://www.youtube.com/watch?v=sKaSBh1M4M4">YouTube</a></div>
+          <div class="t">Let's Learn .NET &amp; Learn Live</div>
+          <div class="d">Multi-hour live, hands-on workshops for beginners: IoT, authentication and identity, web development, and writing your first C#.</div>
+          <div class="links">
+            <a href="https://www.youtube.com/watch?v=sKaSBh1M4M4">IoT</a>
+            <a href="https://learn.microsoft.com/shows/lets-learn-dotnet/lets-learn-dotnet-auth-and-identity">Auth &amp; Identity</a>
+            <a href="https://learn.microsoft.com/shows/lets-learn-dotnet/lets-learn-dotnet-web-development">Web Dev</a>
+            <a href="https://learn.microsoft.com/shows/learn-live/get-started-with-csharp-ep01-write-your-first-code-using-csharp">Learn Live: C#</a>
+          </div>
         </div>
       </div>
     </section>
