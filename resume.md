@@ -44,7 +44,7 @@ Internal systems engineering team, focused on accelerating Pulumi's automated de
 
 Joined to write docs; within a month I was Pulumi's sole docs engineer. Turned that into a one-person docs-ops practice for Pulumi's infrastructure-as-code product: the `pulumi/docs` repository, the build pipeline, the information architecture, and the quality gate every change ships through. Treated the docs as two products: one for humans, and one for the AI agents that increasingly read them first.
 
-- Built an **AI-powered PR review pipeline** that pairs deterministic linting (Vale, markdownlint) with multi-model LLM fact-checking (Claude Opus and Sonnet), scoped to changed lines and wired into CI/CD. The [skills behind it](https://github.com/pulumi/docs/tree/master/.claude/commands) are public in the docs repo.
+- Built an **AI-powered PR review pipeline**: Vale on changed lines, markdownlint as a build gate, and multi-model LLM fact-checking (Claude Haiku, Sonnet, and Opus) wired into CI/CD, behind a merge gate no model controls. The [skills behind it](https://github.com/pulumi/docs/tree/master/.claude/commands) are public in the docs repo.
 - Designed a modular **"prompts as code"** skill system: reusable, version-controlled AI skills that share a single source of truth for style and review criteria, adopted and extended by engineering and marketing.
 - Built the **agent-consumable knowledge layer**: every page served as Markdown, a curated `llms.txt`, a JSON sitemap, and Context7 onboarding, so coding agents retrieve current docs instead of stale training data.
 - Partnered with marketing on **SEO/AEO**, tuning content so AI answer engines cite it accurately.
@@ -75,7 +75,7 @@ Consulted on mission-critical .NET and Azure systems for federal agencies and Fo
 ## Selected Projects
 
 - **[Personal AI operations system](https://github.com/CamSoper/adhd-ops):** Claude Code plugins and scheduled routines that run my day over calendar, task, and mail connectors: a morning brief, an evening shutdown, backlog triage, and a monthly retro where the system reads its own telemetry. Published as a scrubbed, MIT-licensed playbook.
-- **Doorbot, an AI doorman:** a Claude-powered agent that reads the doorbell camera, talks with visitors, classifies intent, dismisses solicitors, routes legitimate callers to a human, and resists prompt injection.
+- **[Doorbot, an AI doorman](https://camsoper.github.io/projects/doorbot/):** Gemini reads the doorbell camera and Claude talks with the visitor, classifies intent, dismisses solicitors, and routes legitimate callers to a human. The agent has no tools, so prompt injection has nothing to reach.
 - **Open source:** [`puppet`](https://github.com/CamSoper/puppet), a .NET home-automation framework (110+ stars); [`Inferno`](https://github.com/CamSoper/Inferno), a .NET-powered smart smoker; and [`shark2mqtt`](https://github.com/CamSoper/shark2mqtt), a Home Assistant device bridge in Python.
 
 ## Earlier Experience
