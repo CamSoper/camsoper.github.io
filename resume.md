@@ -17,7 +17,7 @@ I build AI agent systems and teach developers to build them. I don't stay in one
 
 ## Talks, Streams & Writing
 
-- **Speaking:** 15+ conference sessions at .NET Conf, KCDC, CodeMash, That Conference, DevUp, TechBash, Code PaLOUsa, Music City Tech, Beer City Code, Cream City Code, Little Rock Tech Fest, and local user groups. Selected talks:
+- **Speaking:** 15+ conference sessions at .NET Conf, KCDC, CodeMash, DevUp, TechBash, Code PaLOUsa, Music City Tech, Beer City Code, Cream City Code, Little Rock Tech Fest, and local user groups. Selected talks:
   - "Infrastructure as (Actual) Code with C# 15 and .NET 11" (.NET Conf 2026 Community Days, Nov 13, upcoming)
   - "Have Your Pi and Eat It Too: .NET Core on Raspberry Pi" (.NET Conf 2018; CodeMash, Beer City Code, Code PaLOUsa, DevUp, TechBash 2019)
   - "My House Runs .NET: Smart Home Automation with .NET Core and Azure" (.NET Conf, Code PaLOUsa, Music City Tech, DevUp 2019)
