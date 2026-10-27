@@ -198,7 +198,7 @@ description: "AI agent systems, talks and livestreams, training, developer platf
       <div class="grid">
         <div class="pcard">
           <div class="t">puppet</div>
-          <div class="d">A .NET framework for automating Hubitat Elevation, and my most-starred open-source project (110+ stars). Featured on Microsoft's On .NET in "Home automation with Hubitat and .NET Core."</div>
+          <div class="d">A .NET framework for automating Hubitat Elevation, and my most-starred open-source project (110+ stars). Featured on Microsoft's On .NET in "Home automation with Hubitat and .NET Core." No longer actively developed: my house now runs on Home Assistant.</div>
           <div class="links">
             <a href="https://github.com/CamSoper/puppet">GitHub</a>
             <a href="https://learn.microsoft.com/shows/on-dotnet/home-automation-with-hubitat-and-net-core">On .NET</a>
