@@ -2,32 +2,46 @@
 layout: resume
 nav: resume
 title: "Résumé — Cam Soper"
-description: "Solutions architect and AI systems builder. I automate complex technical work and run Pulumi's docs platform as a one-person practice."
+description: "Senior software engineer and AI systems builder. I automate code quality analysis at Pulumi and own its docs platform."
 ---
 
-Solutions architect and systems builder who automates complex technical work with AI. I run Pulumi's documentation platform as a one-person docs-ops practice: the repository, the build pipeline, the information architecture, and an AI-driven quality system that reviews every change before it ships. Three decades across software engineering, cloud infrastructure (Azure, .NET), and developer education, now focused on polyglot, AI-powered systems that give small teams outsized leverage. I build the system, not just the content.
+Senior software engineer and systems builder who automates complex technical work with AI. On Pulumi's internal systems engineering team I build automated quality analysis for pull requests, whether a person or an agent wrote them: is the change any good, and how fast can it merge safely? I also own Pulumi's documentation platform, which I built as a one-person docs-ops practice: the repository, the build pipeline, the information architecture, and an AI-driven review system that checks every change before it ships. Coding since 1991, across software engineering, cloud infrastructure (Azure, .NET), and developer education. I build the system, not just the content.
 
 ## Key Skills
 
-- **AI Systems & Automation** — design modular, multi-model LLM pipelines for review, fact-checking, and content operations that let one person operate like a team.
+- **AI Systems & Automation** — design modular, multi-model LLM pipelines for code and content review, fact-checking, and quality analysis that let one person operate like a team.
 - **Solution Architecture & Platform Ownership** — own repositories, build pipelines, information architecture, and quality gates end to end.
-- **DevOps & CI/CD** — GitHub Actions, automated quality gates, dev containers, and infrastructure as code with Pulumi.
+- **DevOps, CI/CD & QA Automation** — GitHub Actions, automated PR quality analysis and gates, dev containers, and infrastructure as code with Pulumi.
 - **Polyglot Engineering** — .NET/C#, Go, Python, and TypeScript; ramp on new languages through fundamentals, not syntax.
 - **Cloud & Infrastructure** — deep Azure background plus multi-cloud IaC, containers, and scalable architectures.
 - **Technical Education & Communication** — turn complex systems into documentation, talks, and training developers actually use.
 
 ## Work Experience
 
+### Senior Software Engineer
+
+**Pulumi · Remote** — *Oct 2026 – Present*
+
+Internal systems engineering team, focused on accelerating Pulumi's automated development workflows. My piece is QA: once a pull request is open, whether a human or an agent wrote it, how do we know it's good, and how fast can it merge safely?
+
+- Build **automated quality analysis** for open pull requests, so engineers (and coding agents) spend less time waiting on review and more time shipping.
+- Continue to own the **Pulumi docs platform** I built as a content engineer, run as an engineering system: same quality gates, more automation, less manual review.
+
+#### Skills & Technologies
+
+QA Automation · AI Code Review · Agentic Workflows · Anthropic Claude · LLM Orchestration · CI/CD · GitHub Actions · TypeScript · Go · Python
+
 ### Senior Technical Content Engineer
 
-**Pulumi · Remote** — *Jul 2025 – Present*
+**Pulumi · Remote** — *Jul 2025 – Oct 2026*
 
-Own the documentation platform for Pulumi's infrastructure-as-code product as a one-person docs-ops practice: the `pulumi/docs` repository, the site and docs build pipeline, the information architecture, and the quality gate every change ships through. The mandate is leverage, not headcount: build systems that hold a quality bar at the speed engineering ships.
+Joined to write docs; a month in, the only other docs person left and I became the docs team. Turned that into a one-person docs-ops practice for Pulumi's infrastructure-as-code product: the `pulumi/docs` repository, the site and docs build pipeline, the information architecture, and the quality gate every change ships through. Treated the docs as two products: one for humans, and one for the AI agents that increasingly read them first.
 
 - Built an **AI-powered PR review pipeline** that pairs deterministic linting (Vale, markdownlint) with multi-model LLM fact-checking (Claude Opus and Sonnet), scoped to changed lines and wired into CI/CD. It is cited internally as the reference implementation for the company's content-quality model.
 - Designed a modular **"prompts as code"** skill system: reusable, version-controlled AI skills that share a single source of truth for style and review criteria, adopted and extended by engineering and marketing. Wrote it up on the [Pulumi blog](https://www.pulumi.com/blog/treating-prompts-like-code/).
 - Partner with marketing on **SEO/AEO**, tuning content to be accurately cited by AI answer engines (Google AI Overviews, LLM assistants) without resorting to spam.
 - Built the **agent-consumable knowledge layer** (clean `.md` URLs, a curated `llms.txt`, and a JSON sitemap) so coding agents retrieve current, authoritative documentation instead of stale training data.
+- Pushed for a **launch-docs standard** so new Pulumi Cloud features ship with complete documentation, not docs that show up three sprints later.
 - Work polyglot across documentation and runnable examples in **.NET, Go, Python, and TypeScript**.
 
 #### Skills & Technologies
@@ -44,7 +58,8 @@ Developer education and tooling across .NET and Azure, with a growing focus on a
 - Owned a portfolio of **467 Azure and .NET documentation and training topics** driving **1.1M+ annual pageviews**.
 - Built developer environments with **Dev Containers, Codespaces, and WSL**, streamlining onboarding for Linux-first and cross-platform developers.
 - Wrote the entire **.NET IoT documentation** set, bridging hardware integration with .NET development.
-- Primary author of .NET training on Microsoft Learn (fundamentals, ASP.NET Core, microservices, Azure SDKs); co-founded and co-hosted **On .NET Live**.
+- Primary author of .NET training on Microsoft Learn (fundamentals, ASP.NET Core, EF Core, microservices, Azure SDKs); wrote and recorded instructional video series (.NET IoT for Beginners, Entity Framework Core for Beginners).
+- Co-founded and co-hosted **On .NET Live**, the weekly community stream on the official .NET channels; kept co-hosting after Microsoft until the show wrapped, hundreds of episodes in.
 
 #### Skills & Technologies
 

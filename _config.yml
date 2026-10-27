@@ -1,12 +1,12 @@
 title: "Cam Soper"
-description: "Solutions Architect · AI Systems Builder · Technical Educator"
+description: "Senior Software Engineer · AI Systems Builder · Developer Educator"
 url: "https://camsoper.github.io"
 
 # No gem theme — this repo ships its own _layouts and assets/css.
 
 author:
   name: "Cam Soper"
-  tagline: "Solutions Architect · AI Systems Builder · Technical Educator"
+  tagline: "Senior Software Engineer · AI Systems Builder · Developer Educator"
 
 contacts:
   - { label: "cam.soper@outlook.com",      href: "mailto:cam.soper@outlook.com" }
