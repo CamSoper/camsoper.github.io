@@ -19,6 +19,16 @@ description: "AI agent systems, talks and livestreams, training, developer platf
       <p>Systems that pair deterministic tooling with LLM judgment, built to let one person operate like a team, and to spend tokens like they cost money, because they do.</p>
       <div class="grid">
         <div class="pcard">
+          <div class="t">Pulumi docs AI review pipeline</div>
+          <div class="d">Every pull request to Pulumi's docs gets Vale on its changed lines, markdownlint as a build gate, and its claims checked by Claude agents (Haiku, Sonnet, and Opus) in CI, behind a merge gate no model controls. The skills behind it are open source in <code>pulumi/docs</code>.</div>
+          <div class="links">
+            <a href="https://github.com/pulumi/docs/tree/master/.claude/commands">Docs skills (open source)</a>
+            <a href="https://www.pulumi.com/blog/treating-prompts-like-code/">Write-up</a>
+            <a href="{{ '/projects/docs-pipeline/' | relative_url }}">How it works</a>
+            <a href="https://claude.ai/artifact/XVUbiaM9o87AfmwiE7Ckay">Code walkthrough</a>
+          </div>
+        </div>
+        <div class="pcard">
           <div class="t">code-walkthrough: guided code tours</div>
           <div class="d">A Claude Code skill I built that turns a repo, a directory, or a pull request into a paged walkthrough: the exact code at a pinned commit, a map of where it lives, diagrams linked to the lines they describe, and answer-first checks after every chapter. A script copies every snippet from git, so the model can't invent code or line numbers. Every walkthrough on this site came out of it.</div>
           <div class="links">
@@ -171,16 +181,6 @@ description: "AI agent systems, talks and livestreams, training, developer platf
         <div class="pcard">
           <div class="t">Automated PR quality analysis</div>
           <div class="d">Once a pull request is open, whether a person or a coding agent wrote it: is it any good, and how fast can it merge safely? I'm building automated analysis and merge gates that apply one quality bar to human and agent authors alike.</div>
-        </div>
-        <div class="pcard">
-          <div class="t">AI docs quality pipeline &amp; skill catalog</div>
-          <div class="d">Vale scoped to changed lines, markdownlint as a build gate, and multi-model fact-checking (Claude Haiku, Sonnet, and Opus) wired into CI/CD, with a merge gate no model controls. The skills behind it are open source in the docs repo.</div>
-          <div class="links">
-            <a href="https://github.com/pulumi/docs/tree/master/.claude/commands">Docs skills (open source)</a>
-            <a href="https://www.pulumi.com/blog/treating-prompts-like-code/">Write-up</a>
-            <a href="{{ '/projects/docs-pipeline/' | relative_url }}">How it works</a>
-            <a href="https://claude.ai/artifact/XVUbiaM9o87AfmwiE7Ckay">Code walkthrough</a>
-          </div>
         </div>
         <div class="pcard">
           <div class="t">Agent-consumable documentation</div>

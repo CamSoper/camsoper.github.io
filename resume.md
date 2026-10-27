@@ -15,6 +15,13 @@ I build AI agent systems and teach developers to build them. I don't stay in one
 - **Polyglot Engineering** — .NET/C#, Go, Python, and TypeScript; I pick up new languages fast because the fundamentals carry over.
 - **Cloud & Infrastructure** — deep Azure background plus infrastructure as code with Pulumi, containers, and dev containers.
 
+## Selected Projects
+
+- **[Pulumi docs AI review pipeline](https://camsoper.github.io/projects/docs-pipeline/):** every docs PR gets Vale on changed lines, claims verified by Claude agents (Haiku, Sonnet, Opus), and a merge gate no model controls. Open source in `pulumi/docs`.
+- **[code-walkthrough](https://github.com/CamSoper/adhd-ops/tree/main/code-walkthrough):** a Claude Code skill that turns a repo or pull request into a guided, paged walkthrough pinned to a commit, with code copied from git so line numbers can't be invented, linked diagrams, and answer-first checks. Open source.
+- **[Doorbot, an AI doorman](https://camsoper.github.io/projects/doorbot/):** Gemini reads the doorbell camera and Claude talks with the visitor, classifies intent, dismisses solicitors, and routes legitimate callers to a human. The agent has no tools, so prompt injection has nothing to reach.
+- **Open source:** [`puppet`](https://github.com/CamSoper/puppet), a .NET home-automation framework (110+ stars, retired after my move to Home Assistant); [`Inferno`](https://github.com/CamSoper/Inferno), a .NET-powered smart smoker; and [`shark2mqtt`](https://github.com/CamSoper/shark2mqtt), a Home Assistant device bridge in Python.
+
 ## Talks, Streams & Writing
 
 - **Speaking:** 15+ conference sessions at .NET Conf, KCDC, CodeMash, DevUp, TechBash, Code PaLOUsa, Music City Tech, Beer City Code, Cream City Code, Little Rock Tech Fest, and local user groups. Selected talks:
@@ -71,13 +78,6 @@ Consulted on mission-critical .NET and Azure systems for federal agencies and Fo
 
 - Launched Microsoft's **first fully online Premier workshops**, proving virtual technical education could match in-person delivery.
 - Notable customers: White House Communications Agency, US Air Force, US Government Printing Office, Orange County (CA), Toshiba of America.
-
-## Selected Projects
-
-- **[Pulumi docs AI review pipeline](https://camsoper.github.io/projects/docs-pipeline/):** every docs PR gets Vale on changed lines, claims verified by Claude agents (Haiku, Sonnet, Opus), and a merge gate no model controls. Open source in `pulumi/docs`.
-- **[code-walkthrough](https://github.com/CamSoper/adhd-ops/tree/main/code-walkthrough):** a Claude Code skill that turns a repo or pull request into a guided, paged walkthrough pinned to a commit, with code copied from git so line numbers can't be invented, linked diagrams, and answer-first checks. Open source.
-- **[Doorbot, an AI doorman](https://camsoper.github.io/projects/doorbot/):** Gemini reads the doorbell camera and Claude talks with the visitor, classifies intent, dismisses solicitors, and routes legitimate callers to a human. The agent has no tools, so prompt injection has nothing to reach.
-- **Open source:** [`puppet`](https://github.com/CamSoper/puppet), a .NET home-automation framework (110+ stars, retired after my move to Home Assistant); [`Inferno`](https://github.com/CamSoper/Inferno), a .NET-powered smart smoker; and [`shark2mqtt`](https://github.com/CamSoper/shark2mqtt), a Home Assistant device bridge in Python.
 
 ## Earlier Experience
 
