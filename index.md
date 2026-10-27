@@ -18,7 +18,7 @@ description: "Software engineer, developer advocate, and educator. I build AI ag
   </section>
 
   <section class="card prose">
-    <p>Explore my <a href="{{ '/portfolio/' | relative_url }}">portfolio</a> for the work in detail: the AI review pipeline behind Pulumi's docs, a <a href="https://youtu.be/KKPevcH1WuE">Claude-powered doorman</a> that screens my front door, <a href="https://github.com/CamSoper/adhd-ops">the AI operations system</a> that runs my day, and a heavily automated smart home wired together with the same cost-aware engineering I bring to production systems. Next up on stage: "Infrastructure as (Actual) Code with C# 15 and .NET 11" at .NET Conf 2026 Community Days.</p>
+    <p>Explore my <a href="{{ '/portfolio/' | relative_url }}">portfolio</a> for the work in detail: the AI review pipeline behind Pulumi's docs, a <a href="https://youtu.be/KKPevcH1WuE">Claude-powered doorman</a> that screens my front door, and a heavily automated smart home wired together with the same cost-aware engineering I bring to production systems. Next up on stage: "Infrastructure as (Actual) Code with C# 15 and .NET 11" at .NET Conf 2026 Community Days.</p>
     <p>If you need someone who can architect a system, automate it with AI, and then explain it clearly to the people who have to live with it, let's talk.</p>
 
     <div class="facts">

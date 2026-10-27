@@ -74,9 +74,10 @@ Consulted on mission-critical .NET and Azure systems for federal agencies and Fo
 
 ## Selected Projects
 
-- **[Personal AI operations system](https://github.com/CamSoper/adhd-ops):** Claude Code plugins and scheduled routines that run my day over calendar, task, and mail connectors: a morning brief, an evening shutdown, backlog triage, and a monthly retro where the system reads its own telemetry. Published as a scrubbed, MIT-licensed playbook.
+- **[Pulumi docs AI review pipeline](https://camsoper.github.io/projects/docs-pipeline/):** every docs PR gets Vale on changed lines, claims verified by Claude agents (Haiku, Sonnet, Opus), and a merge gate no model controls. Open source in `pulumi/docs`.
+- **[code-walkthrough](https://github.com/CamSoper/adhd-ops/tree/main/code-walkthrough):** a Claude Code skill that turns a repo or pull request into a guided, paged walkthrough pinned to a commit, with code copied from git so line numbers can't be invented, linked diagrams, and answer-first checks. Open source.
 - **[Doorbot, an AI doorman](https://camsoper.github.io/projects/doorbot/):** Gemini reads the doorbell camera and Claude talks with the visitor, classifies intent, dismisses solicitors, and routes legitimate callers to a human. The agent has no tools, so prompt injection has nothing to reach.
-- **Open source:** [`puppet`](https://github.com/CamSoper/puppet), a .NET home-automation framework (110+ stars); [`Inferno`](https://github.com/CamSoper/Inferno), a .NET-powered smart smoker; and [`shark2mqtt`](https://github.com/CamSoper/shark2mqtt), a Home Assistant device bridge in Python.
+- **Open source:** [`puppet`](https://github.com/CamSoper/puppet), a .NET home-automation framework (110+ stars, retired after my move to Home Assistant); [`Inferno`](https://github.com/CamSoper/Inferno), a .NET-powered smart smoker; and [`shark2mqtt`](https://github.com/CamSoper/shark2mqtt), a Home Assistant device bridge in Python.
 
 ## Earlier Experience
 

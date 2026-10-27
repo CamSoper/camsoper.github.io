@@ -19,16 +19,16 @@ description: "AI agent systems, talks and livestreams, training, developer platf
       <p>Systems that pair deterministic tooling with LLM judgment, built to let one person operate like a team, and to spend tokens like they cost money, because they do.</p>
       <div class="grid">
         <div class="pcard">
-          <div class="t">Treating Prompts Like Code</div>
-          <div class="d">How I built a modular AI workflow to scale a solo docs practice: reusable skills, shared context as a single source of truth, version control, and CI/CD. Adopted and extended by engineering and marketing.</div>
+          <div class="t">code-walkthrough: guided code tours</div>
+          <div class="d">A Claude Code skill I built that turns a repo, a directory, or a pull request into a paged walkthrough: the exact code at a pinned commit, a map of where it lives, diagrams linked to the lines they describe, and answer-first checks after every chapter. A script copies every snippet from git, so the model can't invent code or line numbers. Every walkthrough on this site came out of it.</div>
           <div class="links">
-            <a href="https://www.pulumi.com/blog/treating-prompts-like-code/">Pulumi Blog</a>
-            <a href="https://github.com/pulumi/docs/tree/master/.claude/commands">The skills (open source)</a>
+            <a href="https://github.com/CamSoper/adhd-ops/tree/main/code-walkthrough">How it works</a>
+            <a href="https://claude.ai/artifact/Gp4Hjvf89zeN6irZhUUScV">See one: Inferno</a>
           </div>
         </div>
         <div class="pcard">
-          <div class="t">Personal AI operations system</div>
-          <div class="d">The assistant that runs my day: a morning brief, an evening shutdown, a rescue command that sizes one next action to the time actually left, backlog triage, and a monthly retro where the system reads its own telemetry. Built as Claude Code plugins and scheduled routines over calendar, task, and mail connectors, and published as a scrubbed, MIT-licensed playbook that works with any assistant.</div>
+          <div class="t">A shareable AI-assistant playbook</div>
+          <div class="d">A PII-stripped distillation of the private AI assistant system I run day to day: the patterns that survived (one directive a morning, a shutdown ritual, a rescue command sized to the time left, a monthly retro that reads its own telemetry) written up as a playbook, plus a template Claude Code plugin anyone can configure. The public version is for sharing and teaching; my own system is wired to my accounts and stays private.</div>
           <div class="links">
             <a href="https://github.com/CamSoper/adhd-ops">GitHub</a>
             <a href="https://github.com/CamSoper/adhd-ops/blob/main/PLAYBOOK.md">Playbook</a>
@@ -198,7 +198,7 @@ description: "AI agent systems, talks and livestreams, training, developer platf
       <div class="grid">
         <div class="pcard">
           <div class="t">puppet</div>
-          <div class="d">A .NET framework for automating Hubitat Elevation, and my most-starred open-source project (110+ stars). Featured on Microsoft's On .NET in "Home automation with Hubitat and .NET Core."</div>
+          <div class="d">A .NET framework for automating Hubitat Elevation, and my most-starred open-source project (110+ stars). Featured on Microsoft's On .NET in "Home automation with Hubitat and .NET Core." No longer actively developed: my house now runs on Home Assistant.</div>
           <div class="links">
             <a href="https://github.com/CamSoper/puppet">GitHub</a>
             <a href="https://learn.microsoft.com/shows/on-dotnet/home-automation-with-hubitat-and-net-core">On .NET</a>
