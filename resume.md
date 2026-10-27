@@ -2,19 +2,26 @@
 layout: resume
 nav: resume
 title: "Résumé — Cam Soper"
-description: "Senior software engineer and AI systems builder. I automate code quality analysis at Pulumi and own its docs platform."
+description: "Software engineer, developer advocate, and educator. I build AI agent systems, ship the code, write the docs, and get on stage to explain them."
 ---
 
-Senior software engineer and systems builder who automates complex technical work with AI. On Pulumi's internal systems engineering team I build automated quality analysis for pull requests, whether a person or an agent wrote them: is the change any good, and how fast can it merge safely? I also own Pulumi's documentation platform, which I built as a one-person docs-ops practice: the repository, the build pipeline, the information architecture, and an AI-driven review system that checks every change before it ships. Coding since 1991, across software engineering, cloud infrastructure (Azure, .NET), and developer education. I build the system, not just the content.
+I build AI agent systems and teach developers to build them. I don't stay in one lane: I write the code, run the platform, write the docs, and get on stage or on stream to explain it. At Pulumi I build automated quality analysis for pull requests written by people or coding agents, and I own the docs platform I built, including making it readable by agents. Before that, 13 years at Microsoft in .NET and Azure field engineering, then Microsoft Learn training, video series, conference talks, and co-hosting On .NET Live. Coding since 1991.
 
 ## Key Skills
 
-- **AI Systems & Automation** — design modular, multi-model LLM pipelines for code and content review, fact-checking, and quality analysis that let one person operate like a team.
-- **Solution Architecture & Platform Ownership** — own repositories, build pipelines, information architecture, and quality gates end to end.
-- **DevOps, CI/CD & QA Automation** — GitHub Actions, automated PR quality analysis and gates, dev containers, and infrastructure as code with Pulumi.
-- **Polyglot Engineering** — .NET/C#, Go, Python, and TypeScript; ramp on new languages through fundamentals, not syntax.
-- **Cloud & Infrastructure** — deep Azure background plus multi-cloud IaC, containers, and scalable architectures.
-- **Technical Education & Communication** — turn complex systems into documentation, talks, and training developers actually use.
+- **AI Systems & Agents** — design multi-model LLM pipelines, agent workflows, and reusable skills for code and content review, fact-checking, and quality analysis.
+- **Developer Advocacy & Education** — talks, livestreams, video series, docs, and training that developers actually use.
+- **Platform Ownership & CI/CD** — repositories, build pipelines, information architecture, GitHub Actions, and automated quality gates, end to end.
+- **Polyglot Engineering** — .NET/C#, Go, Python, and TypeScript; I pick up new languages fast because the fundamentals carry over.
+- **Cloud & Infrastructure** — deep Azure background plus infrastructure as code with Pulumi, containers, and dev containers.
+
+## Talks, Streams & Writing
+
+- **.NET Conf 2026 Community Days:** "Infrastructure as (Actual) Code with C# 15 and .NET 11" (upcoming).
+- **On .NET Live:** co-founded and co-hosted the weekly community stream on the official .NET channels, from launch until the show wrapped. [Episodes](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oV2fcY7wsQHx4RNWXEDKgm4).
+- **Conference talks:** "My House Runs .NET" (.NET Conf 2019, DevUp) and "Have Your Pi and Eat It Too" (.NET Conf 2018, DevUp).
+- **Live workshops and video:** Let's Learn .NET and Learn Live sessions; wrote and recorded the .NET IoT for Beginners and Entity Framework Core for Beginners series.
+- **Writing:** "[Treating Prompts Like Code](https://www.pulumi.com/blog/treating-prompts-like-code/)" (Pulumi blog, 2026).
 
 ## Work Experience
 
@@ -24,46 +31,33 @@ Senior software engineer and systems builder who automates complex technical wor
 
 Internal systems engineering team, focused on accelerating Pulumi's automated development workflows. My piece is QA: once a pull request is open, whether a human or an agent wrote it, how do we know it's good, and how fast can it merge safely?
 
-- Build **automated quality analysis** for open pull requests, so engineers (and coding agents) spend less time waiting on review and more time shipping.
-- Continue to own the **Pulumi docs platform** I built as a content engineer, run as an engineering system: same quality gates, more automation, less manual review.
-
-#### Skills & Technologies
-
-QA Automation · AI Code Review · Agentic Workflows · Anthropic Claude · LLM Orchestration · CI/CD · GitHub Actions · TypeScript · Go · Python
+- Building **automated quality analysis and merge gates** that apply one quality bar to human- and agent-authored pull requests.
+- Still own the **Pulumi docs platform** I built as a content engineer, run as an engineering system.
 
 ### Senior Technical Content Engineer
 
 **Pulumi · Remote** — *Jul 2025 – Oct 2026*
 
-Joined to write docs; a month in, the only other docs person left and I became the docs team. Turned that into a one-person docs-ops practice for Pulumi's infrastructure-as-code product: the `pulumi/docs` repository, the site and docs build pipeline, the information architecture, and the quality gate every change ships through. Treated the docs as two products: one for humans, and one for the AI agents that increasingly read them first.
+Joined to write docs; within a month I was Pulumi's sole docs engineer. Turned that into a one-person docs-ops practice for Pulumi's infrastructure-as-code product: the `pulumi/docs` repository, the build pipeline, the information architecture, and the quality gate every change ships through. Treated the docs as two products: one for humans, and one for the AI agents that increasingly read them first.
 
-- Built an **AI-powered PR review pipeline** that pairs deterministic linting (Vale, markdownlint) with multi-model LLM fact-checking (Claude Opus and Sonnet), scoped to changed lines and wired into CI/CD. It is cited internally as the reference implementation for the company's content-quality model.
-- Designed a modular **"prompts as code"** skill system: reusable, version-controlled AI skills that share a single source of truth for style and review criteria, adopted and extended by engineering and marketing. Wrote it up on the [Pulumi blog](https://www.pulumi.com/blog/treating-prompts-like-code/).
-- Partner with marketing on **SEO/AEO**, tuning content to be accurately cited by AI answer engines (Google AI Overviews, LLM assistants) without resorting to spam.
-- Built the **agent-consumable knowledge layer** (clean `.md` URLs, a curated `llms.txt`, and a JSON sitemap) so coding agents retrieve current, authoritative documentation instead of stale training data.
-- Pushed for a **launch-docs standard** so new Pulumi Cloud features ship with complete documentation, not docs that show up three sprints later.
-- Work polyglot across documentation and runnable examples in **.NET, Go, Python, and TypeScript**.
-
-#### Skills & Technologies
-
-AI Systems · Anthropic Claude · OpenAI · LLM Orchestration · Prompt Engineering · CI/CD · GitHub Actions · Docs-Ops · Vale · Hugo · Infrastructure as Code · Pulumi · Python · Go · TypeScript · .NET
+- Built an **AI-powered PR review pipeline** that pairs deterministic linting (Vale, markdownlint) with multi-model LLM fact-checking (Claude Opus and Sonnet), scoped to changed lines and wired into CI/CD. The [skills behind it](https://github.com/pulumi/docs/tree/master/.claude/commands) are public in the docs repo.
+- Designed a modular **"prompts as code"** skill system: reusable, version-controlled AI skills that share a single source of truth for style and review criteria, adopted and extended by engineering and marketing.
+- Built the **agent-consumable knowledge layer**: every page served as Markdown, a curated `llms.txt`, a JSON sitemap, and Context7 onboarding, so coding agents retrieve current docs instead of stale training data.
+- Partnered with marketing on **SEO/AEO**, tuning content so AI answer engines cite it accurately.
+- Pushed for a **launch-docs standard** so new Pulumi Cloud features ship with complete documentation.
+- Wrote docs and runnable examples in **.NET, Go, Python, and TypeScript**.
 
 ### Senior Content Developer
 
 **Microsoft · Remote** — *Jun 2015 – May 2025*
 
-Developer education and tooling across .NET and Azure, with a growing focus on automation. Built and maintained learning systems used by millions of developers.
+Developer education and tooling across .NET and Azure, with a growing focus on automation.
 
-- Designed and implemented **AI-driven documentation tooling**, integrating GitHub Copilot to streamline authoring and content automation.
-- Owned a portfolio of **467 Azure and .NET documentation and training topics** driving **1.1M+ annual pageviews**.
-- Built developer environments with **Dev Containers, Codespaces, and WSL**, streamlining onboarding for Linux-first and cross-platform developers.
+- Primary author of **.NET training on Microsoft Learn** (fundamentals, ASP.NET Core, EF Core, microservices, Azure SDKs).
+- Owned **467 Azure and .NET documentation and training topics** driving **1.1M+ annual pageviews**.
 - Wrote the entire **.NET IoT documentation** set, bridging hardware integration with .NET development.
-- Primary author of .NET training on Microsoft Learn (fundamentals, ASP.NET Core, EF Core, microservices, Azure SDKs); wrote and recorded instructional video series (.NET IoT for Beginners, Entity Framework Core for Beginners).
-- Co-founded and co-hosted **On .NET Live**, the weekly community stream on the official .NET channels; kept co-hosting after Microsoft until the show wrapped, hundreds of episodes in.
-
-#### Skills & Technologies
-
-.NET · ASP.NET Core · Azure · AI Tooling · GitHub Copilot · Technical Documentation · Dev Containers · Codespaces · WSL · Microservices · Solution Architecture
+- Designed and implemented **AI-driven documentation tooling**, integrating GitHub Copilot into authoring and content automation.
+- Built developer environments with **Dev Containers, Codespaces, and WSL** for Linux-first and cross-platform developers.
 
 ### Premier Field Engineer
 
@@ -74,17 +68,14 @@ Consulted on mission-critical .NET and Azure systems for federal agencies and Fo
 - Launched Microsoft's **first fully online Premier workshops**, proving virtual technical education could match in-person delivery.
 - Notable customers: White House Communications Agency, US Air Force, US Government Printing Office, Orange County (CA), Toshiba of America.
 
-#### Skills & Technologies
-
-.NET · Azure · Consulting · Enterprise Architecture · Performance Optimization · Developer Education
-
 ## Selected Projects
 
-- **Doorbot — AI doorman** — a Claude-powered door agent that reads the doorbell camera, holds a conversation with visitors, classifies intent (delivery, solicitor, law enforcement, emergency), dismisses solicitors, and routes legitimate callers to a human. Resists prompt-injection attempts.
-- **AI driveway intelligence** — a multi-camera vision pipeline (Gemini, structured-JSON output) that reconstructs an event timeline, classifies deliveries vs. solicitors vs. residents, and triggers package reminders, with model-cost controls and false-positive guards built in.
-- **Open source** — [`puppet`](https://github.com/CamSoper/puppet), a home-automation framework (100+ stars); [`shark2mqtt`](https://github.com/CamSoper/shark2mqtt), a Home Assistant device bridge in Python; and [`Inferno`](https://github.com/CamSoper/Inferno), a .NET-powered smart smoker.
+- **[claude-agent](https://github.com/CamSoper/claude-agent):** a container that gives Claude Code its own long-lived machine and a schedule, so agents do real work on a cron.
+- **[Personal AI operations system](https://github.com/CamSoper/adhd-ops):** Claude Code plugins that run my day over calendar, task, and mail connectors: a morning brief, an evening shutdown, backlog triage, and a monthly retro where the system reads its own telemetry. Published as a scrubbed, MIT-licensed playbook.
+- **Doorbot, an AI doorman:** a Claude-powered agent that reads the doorbell camera, talks with visitors, classifies intent, dismisses solicitors, routes legitimate callers to a human, and resists prompt injection.
+- **Open source:** [`puppet`](https://github.com/CamSoper/puppet), a .NET home-automation framework (110+ stars); [`Inferno`](https://github.com/CamSoper/Inferno), a .NET-powered smart smoker; and [`shark2mqtt`](https://github.com/CamSoper/shark2mqtt), a Home Assistant device bridge in Python.
 
----
+## Earlier Experience
 
 ### Sr. Software Engineer / Professional Services Tech Lead
 
