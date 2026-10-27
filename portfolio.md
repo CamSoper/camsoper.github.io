@@ -19,13 +19,6 @@ description: "AI agent systems, talks and livestreams, training, developer platf
       <p>Systems that pair deterministic tooling with LLM judgment, built to let one person operate like a team, and to spend tokens like they cost money, because they do.</p>
       <div class="grid">
         <div class="pcard">
-          <div class="t">claude-agent</div>
-          <div class="d">A container that gives Claude Code its own long-lived machine and a schedule, so agents do real work on a cron. It runs my scheduled agent jobs against a Claude subscription.</div>
-          <div class="links">
-            <a href="https://github.com/CamSoper/claude-agent">GitHub</a>
-          </div>
-        </div>
-        <div class="pcard">
           <div class="t">Treating Prompts Like Code</div>
           <div class="d">How I built a modular AI workflow to scale a solo docs practice: reusable skills, shared context as a single source of truth, version control, and CI/CD. Adopted and extended by engineering and marketing.</div>
           <div class="links">
@@ -35,7 +28,7 @@ description: "AI agent systems, talks and livestreams, training, developer platf
         </div>
         <div class="pcard">
           <div class="t">Personal AI operations system</div>
-          <div class="d">The assistant that runs my day: a morning brief, an evening shutdown, a rescue command that sizes one next action to the time actually left, backlog triage, and a monthly retro where the system reads its own telemetry. Built as Claude Code plugins over calendar, task, and mail connectors, and published as a scrubbed, MIT-licensed playbook that works with any assistant.</div>
+          <div class="d">The assistant that runs my day: a morning brief, an evening shutdown, a rescue command that sizes one next action to the time actually left, backlog triage, and a monthly retro where the system reads its own telemetry. Built as Claude Code plugins and scheduled routines over calendar, task, and mail connectors, and published as a scrubbed, MIT-licensed playbook that works with any assistant.</div>
           <div class="links">
             <a href="https://github.com/CamSoper/adhd-ops">GitHub</a>
             <a href="https://github.com/CamSoper/adhd-ops/blob/main/PLAYBOOK.md">Playbook</a>
