@@ -17,11 +17,15 @@ I build AI agent systems and teach developers to build them. I don't stay in one
 
 ## Talks, Streams & Writing
 
-- **.NET Conf 2026 Community Days:** "Infrastructure as (Actual) Code with C# 15 and .NET 11" (upcoming).
-- **On .NET Live:** co-founded and co-hosted the weekly community stream on the official .NET channels, from launch until the show wrapped. [Episodes](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oV2fcY7wsQHx4RNWXEDKgm4).
-- **Conference talks:** "My House Runs .NET" (.NET Conf 2019, DevUp) and "Have Your Pi and Eat It Too" (.NET Conf 2018, DevUp).
-- **Live workshops and video:** Let's Learn .NET and Learn Live sessions; wrote and recorded the .NET IoT for Beginners and Entity Framework Core for Beginners series.
-- **Writing:** "[Treating Prompts Like Code](https://www.pulumi.com/blog/treating-prompts-like-code/)" (Pulumi blog, 2026).
+- **Speaking:** .NET Conf, CodeMash, DevUp, Nashville Tech Fest, Code PaLOUsa, and local user groups. Selected talks:
+  - "Infrastructure as (Actual) Code with C# 15 and .NET 11" (.NET Conf 2026 Community Days, upcoming)
+  - "My House Runs .NET" (.NET Conf 2019, DevUp)
+  - "Have Your Pi and Eat It Too: .NET Core on Raspberry Pi" (.NET Conf 2018, DevUp)
+  - "Smokin' .NET to Perfection: Building a smart wood pellet smoker with Raspberry Pi and .NET"
+  - "How Insightful! Grok Your ASP.NET Core Web Apps with Application Insights"
+- **Streaming and events:** co-founded and co-hosted [On .NET Live](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oV2fcY7wsQHx4RNWXEDKgm4), the weekly community stream on the official .NET channels, from launch until the show wrapped; helped plan and host .NET Conf; taught Let's Learn .NET and Learn Live workshops.
+- **Video:** wrote and recorded the .NET IoT for Beginners and Entity Framework Core for Beginners series.
+- **Writing:** the .NET IoT documentation, most of Microsoft Learn's .NET training modules, a 467-article Azure and .NET docs portfolio, Pulumi's documentation platform, and "[Treating Prompts Like Code](https://www.pulumi.com/blog/treating-prompts-like-code/)" on the Pulumi blog.
 
 ## Work Experience
 

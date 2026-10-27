@@ -62,7 +62,7 @@ description: "AI agent systems, talks and livestreams, training, developer platf
 
     <section>
       <h2>Talks &amp; Streaming</h2>
-      <p>Co-founded and co-hosted <strong>On .NET Live</strong>, the weekly community stream on the official .NET channels, from launch until the show wrapped. I've spoken at .NET Conf, DevUp, and Microsoft's live learning shows.</p>
+      <p>Co-founded and co-hosted <strong>On .NET Live</strong>, the weekly community stream on the official .NET channels, from launch until the show wrapped, and helped plan and host .NET Conf. I've spoken at .NET Conf, CodeMash, DevUp, Nashville Tech Fest, Code PaLOUsa, local user groups, and Microsoft's live learning shows. A selection:</p>
       <div class="grid">
         <div class="pcard">
           <div class="t">Infrastructure as (Actual) Code with C# 15 and .NET 11</div>
@@ -91,6 +91,21 @@ description: "AI agent systems, talks and livestreams, training, developer platf
             <a href="https://learn.microsoft.com/shows/dotnetconf-2018/s314">.NET Conf 2018</a>
             <a href="https://www.infoq.com/presentations/net-core-iot/">DevUp (InfoQ)</a>
             <a href="https://github.com/CamSoper/have-your-pi">Code</a>
+          </div>
+        </div>
+        <div class="pcard">
+          <div class="t">Smokin' .NET to Perfection</div>
+          <div class="d">Building a smart wood pellet smoker with Raspberry Pi and .NET: control loops explained through cruise control, plus the hardware for driving a blower, auger, and igniter and reading temperature probes.</div>
+          <div class="links">
+            <a href="https://github.com/CamSoper/smokin-dotnet">Talk materials</a>
+            <a href="https://github.com/CamSoper/Inferno">Inferno</a>
+          </div>
+        </div>
+        <div class="pcard">
+          <div class="t">How Insightful!</div>
+          <div class="d">Grok your ASP.NET Core web apps with Application Insights: server and client telemetry, and snapshot debugging of production exceptions.</div>
+          <div class="links">
+            <a href="https://github.com/CamSoper/how-insightful">Talk materials</a>
           </div>
         </div>
         <div class="pcard">
