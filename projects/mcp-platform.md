@@ -26,10 +26,10 @@ description: "How an agent's tool call reaches a self-hosted MCP server, and how
     <section>
       <h2>Notable engineering details</h2>
       <ul>
-        <li><strong>Two independent checks.</strong> Access at the edge, then origin-side verification of the signed token against each server's own audience, which the Pulumi program pulls from the stack that owns the Access apps through a StackReference.</li>
+        <li><strong>Two independent checks.</strong> Access at the edge, then origin-side verification of the signed token on the first-party servers that have one, against that server's own audience, which the Pulumi program pulls from the stack that owns the Access apps through a StackReference.</li>
         <li><strong>A narrow MQTT server.</strong> The broker is pinned from configuration and every subscribe and publish is checked against read and write allowlists. It replaced a third-party server whose tools accepted a host and credentials on every call.</li>
         <li><strong>Request and response over pub/sub.</strong> Subscribe before publishing, accept only the live echo (never a retained message), and re-check every delivered topic against the allowlist.</li>
-        <li><strong>No human in the ship path.</strong> CI maps each directory to its ESC key and writes every digest in one job, so parallel builds can't race on the environment.</li>
+        <li><strong>Merge ships it.</strong> CI maps each directory to its ESC key and writes every digest in one job, so parallel builds can't race on the environment. The only human step is a one-time switch to make a new server's image package public.</li>
         <li><strong>Digest-pinned images.</strong> Each container depends explicitly on its image resource, so a replacement never fails trying to delete an image that's still in use.</li>
         <li><strong>Stateless transport.</strong> A fresh MCP server per HTTP request, so no session has to survive the tunnel hop.</li>
       </ul>

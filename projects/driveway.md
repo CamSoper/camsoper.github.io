@@ -27,7 +27,7 @@ description: "How one Gemini vision call and a template rule turn driveway motio
       <h2>Notable engineering details</h2>
       <ul>
         <li><strong>Evidence before verdict.</strong> The schema puts the event sequence first, so every label rests on a written, timestamped list of observations. On-frame timestamps, rather than frame order, merge the two cameras.</li>
-        <li><strong>The decision is a rule.</strong> Dispatch is a deterministic template over the model's labels: a uniform plus a set-down, or a visitor who arrived from the street and left. No second model call, so it's free and auditable.</li>
+        <li><strong>The decision is a rule.</strong> Dispatch is a deterministic template over the model's labels: a delivery role or a set-down item, combined with how the visitor arrived and left. No second model call, so it's free and auditable.</li>
         <li><strong>Fail-closed by construction.</strong> A seeded "no activity, all unclear" answer survives a failed call, the prompt tells the model to prefer "unclear", and truncated replies are logged for review.</li>
         <li><strong>Cost and noise controls.</strong> Single-run mode plus a 45-second cooldown, capped frames and resolution, and a cheaper pre-screen model running in a logged shadow trial before it's trusted to skip calls.</li>
         <li><strong>Plays well with Doorbot.</strong> A shared flag keeps a package from being announced twice, and opening the front door is the one off switch for the whole reminder cycle.</li>
