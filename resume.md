@@ -17,7 +17,7 @@ I build AI agent systems and teach developers to build them. I don't stay in one
 
 ## Talks, Streams & Writing
 
-- **Speaking:** .NET Conf, CodeMash, DevUp, Nashville Tech Fest, Code PaLOUsa, and local user groups. Selected talks:
+- **Speaking:** .NET Conf, KCDC, CodeMash, That Conference, DevUp, Code PaLOUsa, Cream City Code, Little Rock Tech Fest, Nashville Tech Fest, and local user groups. Selected talks:
   - "Infrastructure as (Actual) Code with C# 15 and .NET 11" (.NET Conf 2026 Community Days, upcoming)
   - "My House Runs .NET" (.NET Conf 2019, DevUp)
   - "Have Your Pi and Eat It Too: .NET Core on Raspberry Pi" (.NET Conf 2018, DevUp)
