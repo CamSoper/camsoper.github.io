@@ -33,7 +33,10 @@ description: "How an agent's tool call reaches a self-hosted MCP server, and how
         <li><strong>Digest-pinned images.</strong> Each container depends explicitly on its image resource, so a replacement never fails trying to delete an image that's still in use.</li>
         <li><strong>Stateless transport.</strong> A fresh MCP server per HTTP request, so no session has to survive the tunnel hop.</li>
       </ul>
-      <p class="note">The source is private for security and privacy reasons, so this page describes it without linking to code.</p>
+      <p class="note">The source is private for security and privacy reasons, so the walkthrough quotes a redacted extract and its line numbers aren't linked to GitHub.</p>
+      <h2>Code walkthrough</h2>
+      <p><a href="https://claude.ai/artifact/3JbqPSV3DPa2DTxwK8ouNd"><strong>Step through the code, chapter by chapter</strong></a></p>
+      <p class="note">Written by <a href="https://github.com/CamSoper/adhd-ops/tree/main/code-walkthrough">code-walkthrough</a>, a Claude Code skill I built so a private codebase can still be explained honestly, quoted verbatim from a redacted extract.</p>
       <p class="back"><a href="{{ '/portfolio/' | relative_url }}">Back to the portfolio</a></p>
     </section>
 

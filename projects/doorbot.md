@@ -40,8 +40,16 @@ description: "How Doorbot, a Claude-powered front-door greeter, turns a doorbell
       <ul>
         <li><a href="https://youtu.be/KKPevcH1WuE">Testing the Claude Doorbot</a></li>
         <li><a href="https://www.youtube.com/watch?v=XWeJij4rQTU">Doorbot's first user</a></li>
+        <li><a href="https://www.youtube.com/watch?v=MIWh3YhjGFI">Meet my AI receptionist and door greeter</a></li>
+        <li><a href="https://www.youtube.com/watch?v=HPlMxwc-UyY">Pest guy feels insulted by door droid</a></li>
+        <li><a href="https://www.youtube.com/watch?v=444t3u-omHg">Roofing guy rambles, the door droid cuts him off</a></li>
+        <li><a href="https://www.youtube.com/watch?v=PIM3Fi2fud8">Canvasser rejected. Try again never.</a></li>
+        <li><a href="https://claude.ai/artifact/FmTDzohjUa2Q4fKyKAFyCx">Doorbot by the numbers</a>: five months of real visitors, including the two times it got it wrong</li>
       </ul>
-      <p class="note">The source is private for security and privacy reasons, so this page describes it without linking to code.</p>
+      <p class="note">The source is private for security and privacy reasons, so the walkthrough quotes a redacted extract and its line numbers aren't linked to GitHub.</p>
+      <h2>Code walkthrough</h2>
+      <p><a href="https://claude.ai/artifact/W1kLMVaFaVrFoDFA8FzdE5"><strong>Step through the code, chapter by chapter</strong></a></p>
+      <p class="note">Built by <a href="https://github.com/CamSoper/adhd-ops/tree/main/code-walkthrough">code-walkthrough</a>, a Claude Code skill I wrote that turns a codebase into a guided tour. It quotes the running code from a redacted extract, and the videos above show it working.</p>
       <p class="back"><a href="{{ '/portfolio/' | relative_url }}">Back to the portfolio</a></p>
     </section>
 

@@ -40,7 +40,9 @@ description: "AI agent systems, talks and livestreams, training, developer platf
           <div class="links">
             <a href="https://youtu.be/KKPevcH1WuE">Testing the Claude Doorbot</a>
             <a href="https://www.youtube.com/watch?v=XWeJij4rQTU">Doorbot's first user</a>
+            <a href="https://claude.ai/artifact/FmTDzohjUa2Q4fKyKAFyCx">By the numbers</a>
             <a href="{{ '/projects/doorbot/' | relative_url }}">How it works</a>
+            <a href="https://claude.ai/artifact/W1kLMVaFaVrFoDFA8FzdE5">Code walkthrough</a>
           </div>
         </div>
         <div class="pcard">
@@ -48,6 +50,7 @@ description: "AI agent systems, talks and livestreams, training, developer platf
           <div class="d">A two-camera vision pipeline (Gemini, structured-JSON output) that reconstructs an event timeline from front-of-house cameras, classifies deliveries vs. solicitors vs. residents, and fires package reminders. A template rule makes the dispatch decision instead of a second model call, with capped frames, a cooldown, and fail-closed defaults keeping cost and false alarms down.</div>
           <div class="links">
             <a href="{{ '/projects/driveway/' | relative_url }}">How it works</a>
+            <a href="https://claude.ai/artifact/27nWWaRT8jJ9whuM5hm92L">Code walkthrough</a>
           </div>
         </div>
         <div class="pcard">
@@ -55,6 +58,7 @@ description: "AI agent systems, talks and livestreams, training, developer platf
           <div class="d">My own MCP servers, running as containers in my home lab behind one Cloudflare Tunnel, each on its own endpoint behind Cloudflare Access with OAuth. Every merge ships itself: CI pins the image digest in Pulumi ESC and a Pulumi C# program deploys it, so agents can work against my house the same way they work against a cloud API.</div>
           <div class="links">
             <a href="{{ '/projects/mcp-platform/' | relative_url }}">How it works</a>
+            <a href="https://claude.ai/artifact/3JbqPSV3DPa2DTxwK8ouNd">Code walkthrough</a>
           </div>
         </div>
       </div>
@@ -175,6 +179,7 @@ description: "AI agent systems, talks and livestreams, training, developer platf
             <a href="https://github.com/pulumi/docs/tree/master/.claude/commands">Docs skills (open source)</a>
             <a href="https://www.pulumi.com/blog/treating-prompts-like-code/">Write-up</a>
             <a href="{{ '/projects/docs-pipeline/' | relative_url }}">How it works</a>
+            <a href="https://claude.ai/artifact/XVUbiaM9o87AfmwiE7Ckay">Code walkthrough</a>
           </div>
         </div>
         <div class="pcard">
@@ -206,6 +211,7 @@ description: "AI agent systems, talks and livestreams, training, developer platf
             <a href="https://github.com/CamSoper/Inferno">GitHub</a>
             <a href="https://www.youtube.com/watch?v=4kJGRuXZ4kg">On .NET</a>
             <a href="{{ '/projects/inferno/' | relative_url }}">How it works</a>
+            <a href="https://claude.ai/artifact/Gp4Hjvf89zeN6irZhUUScV">Code walkthrough</a>
           </div>
         </div>
         <div class="pcard">

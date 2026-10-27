@@ -44,6 +44,9 @@ description: "How a Pulumi docs pull request moves from open to a merge-gate dec
         <li><a href="https://github.com/pulumi/docs/tree/master/.claude/commands">The docs skills (open source)</a></li>
         <li><a href="https://www.pulumi.com/blog/treating-prompts-like-code/">Treating Prompts Like Code</a></li>
       </ul>
+      <h2>Code walkthrough</h2>
+      <p><a href="https://claude.ai/artifact/XVUbiaM9o87AfmwiE7Ckay"><strong>Step through the code, chapter by chapter</strong></a></p>
+      <p class="note">Built by <a href="https://github.com/CamSoper/adhd-ops/tree/main/code-walkthrough">code-walkthrough</a>, my Claude Code skill, from <code>pulumi/docs</code> at a pinned commit. Every line links to GitHub, so you can check its work.</p>
       <p class="back"><a href="{{ '/portfolio/' | relative_url }}">Back to the portfolio</a></p>
     </section>
 
