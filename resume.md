@@ -30,7 +30,7 @@ I build AI agent systems, and I've been teaching developers for over a decade. I
   - "My House Runs .NET: Smart Home Automation with .NET Core and Azure" (.NET Conf, Code PaLOUsa, Music City Tech, DevUp 2019)
   - "How Insightful! Grok Your ASP.NET Core Web Apps with Application Insights" (KCDC, DevUp, TechBash 2019)
   - "Smokin' .NET to Perfection: Building a smart wood pellet smoker with Raspberry Pi and .NET" (KCDC 2021)
-- **Streaming and events:** co-founded and co-hosted [On .NET Live](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oV2fcY7wsQHx4RNWXEDKgm4), the weekly community stream on the official .NET channels, from launch until the show wrapped; helped plan and host .NET Conf; ran hands-on training labs at Microsoft Build; taught Let's Learn .NET and Learn Live workshops.
+- **Streaming and events:** co-founded The .NET Docs Show in 2020, which became [On .NET Live](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oV2fcY7wsQHx4RNWXEDKgm4), the weekly community stream on the official .NET channels, and co-hosted it until 2026; helped plan and host .NET Conf; ran hands-on training labs at Microsoft Build; taught Let's Learn .NET and Learn Live workshops.
 - **Video:** wrote and recorded the Entity Framework Core for Beginners (120K+ views) and .NET IoT for Beginners series on the official .NET YouTube channel.
 - **Writing:** most of Microsoft Learn's .NET training modules, and "[Treating Prompts Like Code](https://www.pulumi.com/blog/treating-prompts-like-code/)" on the Pulumi blog.
 

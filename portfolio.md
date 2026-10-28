@@ -76,7 +76,7 @@ description: "AI agent systems, talks and livestreams, training, documentation, 
 
     <section>
       <h2>Talks &amp; Streaming</h2>
-      <p>Co-founded and co-hosted <strong>On .NET Live</strong>, the weekly community stream on the official .NET channels, from launch until the show wrapped, helped plan and host .NET Conf, and ran hands-on training labs at Microsoft Build. 15+ conference sessions at .NET Conf, KCDC, CodeMash, DevUp, TechBash, Code PaLOUsa, Music City Tech, Beer City Code, Cream City Code, Little Rock Tech Fest, and local user groups, plus Microsoft's live learning shows. A selection:</p>
+      <p>Co-founded The .NET Docs Show in 2020, which became <strong>On .NET Live</strong>, the weekly community stream on the official .NET channels, and co-hosted it until 2026. Helped plan and host .NET Conf, and ran hands-on training labs at Microsoft Build. 15+ conference sessions at .NET Conf, KCDC, CodeMash, DevUp, TechBash, Code PaLOUsa, Music City Tech, Beer City Code, Cream City Code, Little Rock Tech Fest, and local user groups, plus Microsoft's live learning shows. A selection:</p>
       <div class="grid">
         <div class="pcard">
           <div class="t">Infrastructure as (Actual) Code with C# 15 and .NET 11</div>
@@ -84,7 +84,7 @@ description: "AI agent systems, talks and livestreams, training, documentation, 
         </div>
         <div class="pcard">
           <div class="t">On .NET Live</div>
-          <div class="d">A weekly live show where community developers, MVPs, and Microsoft engineers demoed their projects, plus earlier appearances on The .NET Docs Show. Favorite episode: Scott Hanselman upgrading his apps live.</div>
+          <div class="d">A weekly live show where community developers, MVPs, and Microsoft engineers demoed their projects. It started in 2020 as The .NET Docs Show, then joined the official .NET community streams. Favorite episode: Scott Hanselman upgrading his apps live.</div>
           <div class="links">
             <a href="https://www.youtube.com/playlist?list=PLdo4fOcmZ0oV2fcY7wsQHx4RNWXEDKgm4">YouTube</a>
             <a href="https://youtu.be/aKlT905fSAA">Hanselman upgrades</a>
