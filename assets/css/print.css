@@ -38,6 +38,7 @@ body{ background:#fff; font-size:10.5pt; }
    the contacts run together. Add an explicit separator between them. */
 .resume-header .contacts a::after{ content:"   ·   "; color:#6b6e76; }
 .resume-header .contacts a:last-child::after{ content:none; }
+.resume-header .contacts span::after{ content:"   ·   "; color:#6b6e76; }
 
 /* tighten type for paper */
 .resume h2{ font-size:11pt; margin:18pt 0 9pt; }

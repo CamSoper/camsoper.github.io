@@ -55,7 +55,6 @@ Joined to write docs; within a month I was Pulumi's sole docs engineer. Turned t
 - Designed a modular **"prompts as code"** skill system: reusable, version-controlled AI skills that share a single source of truth for style and review criteria, adopted and extended by engineering and marketing.
 - Built the **agent-consumable knowledge layer**: every page served as Markdown, a curated `llms.txt`, a JSON sitemap, and Context7 onboarding, so coding agents retrieve current docs instead of stale training data.
 - Partnered with marketing on **SEO/AEO**, tuning content so AI answer engines cite it accurately.
-- Pushed for a **launch-docs standard** so new Pulumi Cloud features ship with complete documentation.
 - Wrote docs and runnable examples in **.NET, Go, Python, and TypeScript**.
 
 ### Senior Content Developer
@@ -67,7 +66,7 @@ Developer education for .NET and Azure: docs, training, video, and live shows, p
 - Primary author of **.NET training on Microsoft Learn** (fundamentals, ASP.NET Core, EF Core, microservices, Azure SDKs).
 - Owned **467 Azure and .NET documentation and training topics** driving **1.1M+ annual pageviews**.
 - Wrote the entire **.NET IoT documentation** set, bridging hardware integration with .NET development.
-- Designed and implemented **AI-driven documentation tooling**, integrating GitHub Copilot into authoring and content automation.
+- Built an early **AI authoring skill** on GitHub Copilot that turned structured model output into the .NET docs' standard "What's new" pages.
 - Built developer environments with **Dev Containers, Codespaces, and WSL** for Linux-first and cross-platform developers.
 
 ### Premier Field Engineer
