@@ -18,7 +18,7 @@ I build AI agent systems and teach developers to build them. I don't stay in one
 ## Selected Projects
 
 - **[Pulumi docs AI review pipeline](https://camsoper.github.io/projects/docs-pipeline/):** every docs PR gets Vale on changed lines, claims verified by Claude agents (Haiku, Sonnet, Opus), and a merge gate no model controls. Open source in `pulumi/docs`.
-- **[code-walkthrough](https://github.com/CamSoper/adhd-ops/tree/main/code-walkthrough):** a Claude Code skill that turns a repo or pull request into a guided, paged walkthrough pinned to a commit, with code copied from git so line numbers can't be invented, linked diagrams, and answer-first checks. Open source.
+- **[.NET IoT documentation](https://learn.microsoft.com/dotnet/iot/):** wrote the whole set on Microsoft Learn, from the overview and quickstart to six hands-on hardware tutorials (GPIO, I²C sensors, LCDs, ADCs) and the deployment and debugging guides, with all the samples and wiring diagrams.
 - **[Doorbot, an AI doorman](https://camsoper.github.io/projects/doorbot/):** Gemini reads the doorbell camera and Claude talks with the visitor, classifies intent, dismisses solicitors, and routes legitimate callers to a human. The agent has no tools, so prompt injection has nothing to reach.
 - **Open source:** [`puppet`](https://github.com/CamSoper/puppet), a .NET home-automation framework (110+ stars, retired after my move to Home Assistant); [`Inferno`](https://github.com/CamSoper/Inferno), a .NET-powered smart smoker; and [`shark2mqtt`](https://github.com/CamSoper/shark2mqtt), a Home Assistant device bridge in Python.
 
@@ -32,7 +32,7 @@ I build AI agent systems and teach developers to build them. I don't stay in one
   - "Smokin' .NET to Perfection: Building a smart wood pellet smoker with Raspberry Pi and .NET" (KCDC 2021)
 - **Streaming and events:** co-founded and co-hosted [On .NET Live](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oV2fcY7wsQHx4RNWXEDKgm4), the weekly community stream on the official .NET channels, from launch until the show wrapped; helped plan and host .NET Conf; ran hands-on training labs at Microsoft Build; taught Let's Learn .NET and Learn Live workshops.
 - **Video:** wrote and recorded the Entity Framework Core for Beginners (120K+ views) and .NET IoT for Beginners series on the official .NET YouTube channel.
-- **Writing:** the .NET IoT documentation, most of Microsoft Learn's .NET training modules, a 467-article Azure and .NET docs portfolio, Pulumi's documentation platform, and "[Treating Prompts Like Code](https://www.pulumi.com/blog/treating-prompts-like-code/)" on the Pulumi blog.
+- **Writing:** most of Microsoft Learn's .NET training modules, a 467-article Azure and .NET docs portfolio, Pulumi's documentation platform, and "[Treating Prompts Like Code](https://www.pulumi.com/blog/treating-prompts-like-code/)" on the Pulumi blog.
 
 ## Work Experience
 
