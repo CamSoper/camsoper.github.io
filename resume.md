@@ -66,7 +66,7 @@ Developer education for .NET and Azure: docs, training, video, and live shows, p
 - Primary author of **.NET training on Microsoft Learn** (fundamentals, ASP.NET Core, EF Core, microservices, Azure SDKs).
 - Owned **467 Azure and .NET documentation and training topics** driving **1.1M+ annual pageviews**.
 - Wrote the entire **.NET IoT documentation** set, bridging hardware integration with .NET development.
-- Built an early **AI authoring skill** on GitHub Copilot that turned structured model output into the .NET docs' standard "What's new" pages.
+- Built an early **AI authoring skill** on GitHub Copilot that turned structured model output into the .NET docs' standard breaking-change articles.
 - Built developer environments with **Dev Containers, Codespaces, and WSL** for Linux-first and cross-platform developers.
 
 ### Premier Field Engineer
