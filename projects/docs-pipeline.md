@@ -31,7 +31,7 @@ description: "How a Pulumi docs pull request moves from open to a merge-gate dec
         <li><strong>Redundant claim extraction.</strong> Regex plus two differently framed passes feed a claim floor, and each claim is routed by rules to source, URL, or web-search verification. A verdict whose only evidence is the page under review gets re-checked.</li>
         <li><strong>The Sentinel fails closed.</strong> An evaluation error blocks the merge. The <code>review:waived</code> break-glass label is honored only from an active routing-team member, and the verdict summary names who applied it.</li>
         <li><strong>Safe on untrusted PRs.</strong> The Sentinel never checks out PR code, and a test asserts it. A repo setting runs it report-only before it enforces.</li>
-        <li><strong>Models chosen by benchmark.</strong> Haiku for triage, Sonnet for extraction, Opus for verification and editing, with the benchmark results recorded next to the choices.</li>
+        <li><strong>Models chosen by benchmark.</strong> Haiku for trivial PRs, Sonnet for extraction, Opus for verification and editing, with the benchmark results recorded next to the choices.</li>
       </ul>
     </section>
 

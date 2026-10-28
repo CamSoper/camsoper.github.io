@@ -10,7 +10,7 @@ description: "Software engineer, developer advocate, and educator. I build AI ag
   <section class="card band hero">
     <div class="eyebrow">Software Engineer · Developer Advocate · Educator · AI Systems Builder</div>
     <h1>Hi, I'm Cam.</h1>
-    <p>I build AI agent systems and teach developers to build them: on stage, on stream, in docs, and in code you can clone. I don't stay in one lane. At Pulumi I build automated quality analysis for pull requests, whether a person or an agent wrote them, and I own the docs platform I built. Before that, 13 years at Microsoft: Premier Field Engineering for .NET and Azure, then Microsoft Learn training, video series, conference talks, and co-hosting On .NET Live.</p>
+    <p>I build AI agent systems, and I teach developers: on stage, on stream, in docs, and in code you can clone. At Pulumi I build automated quality analysis for pull requests, whether a person or an agent wrote them, and I own the docs platform I built. Before that, 13 years at Microsoft: Premier Field Engineering for .NET and Azure, then Microsoft Learn training, video series, conference talks, and co-hosting On .NET Live.</p>
     <div class="cta-row">
       <a class="btn btn-primary" href="{{ '/portfolio/' | relative_url }}">View my portfolio →</a>
       <a class="btn btn-ghost" href="{{ '/resume/' | relative_url }}">Read my résumé</a>
@@ -22,7 +22,7 @@ description: "Software engineer, developer advocate, and educator. I build AI ag
     <p>If you need someone who can architect a system, automate it with AI, and then explain it clearly to the people who have to live with it, let's talk.</p>
 
     <div class="facts">
-      <div class="fact"><div class="big">1-person</div><div class="cap">docs-ops platform I built at Pulumi</div></div>
+      <div class="fact"><div class="big">15+</div><div class="cap">conference sessions, plus a weekly .NET livestream</div></div>
       <div class="fact"><div class="big">1.1M+</div><div class="cap">annual pageviews across 467 docs at Microsoft</div></div>
       <div class="fact"><div class="big">130+</div><div class="cap">automations running my house</div></div>
     </div>
