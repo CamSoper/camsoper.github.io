@@ -2,14 +2,14 @@
 layout: default
 nav: portfolio
 title: "Portfolio — Cam Soper"
-description: "AI agent systems, talks and livestreams, training, developer platforms, and a heavily automated house."
+description: "AI agent systems, talks and livestreams, training, documentation, and a heavily automated house."
 ---
 
 <div class="wrap">
 
   <header class="card band" style="padding:48px 64px;">
     <h1 style="font-size:44px;">Portfolio</h1>
-    <p class="lead">I don't stay in one lane. Here's the evidence: AI agent systems, talks and livestreams, training, developer platforms, documentation, and the occasional over-engineered house. Code and write-ups are linked where they're public.</p>
+    <p class="lead">I don't stay in one lane. Here's the evidence: AI agent systems, talks and livestreams, training, documentation, and the occasional over-engineered house. Code and write-ups are linked where they're public.</p>
   </header>
 
   <article class="card prose portfolio">
@@ -175,18 +175,24 @@ description: "AI agent systems, talks and livestreams, training, developer platf
     </section>
 
     <section>
-      <h2>Developer Platforms &amp; Docs-Ops</h2>
-      <p>At Pulumi I build automated quality analysis for pull requests on the internal systems engineering team, and I still own the documentation platform I built: the <code>pulumi/docs</code> repo, the build pipeline, the information architecture, and the quality gate every change ships through. The docs serve two audiences: human readers and the agents that increasingly read them first.</p>
+      <h2>Documentation</h2>
+      <p>I own Pulumi's documentation platform, which I built: the <code>pulumi/docs</code> repo, the build pipeline, the information architecture, and the review pipeline every change ships through. Before that, on Microsoft's .NET docs team, I wrote the entire .NET IoT documentation set, and I still contribute to it: the .NET 10 update in March 2026 was mine.</p>
       <div class="grid">
         <div class="pcard">
-          <div class="t">Automated PR quality analysis</div>
-          <div class="d">Once a pull request is open, whether a person or a coding agent wrote it: is it any good, and how fast can it merge safely? I'm building automated analysis and merge gates that apply one quality bar to human and agent authors alike.</div>
+          <div class="t">Pulumi docs, built for agents too</div>
+          <div class="d">Coding agents increasingly read the docs before people do, so pulumi.com answers them in their format: any page as Markdown (add <code>.md</code> or send <code>Accept: text/markdown</code>), a curated <code>llms.txt</code> index, a JSON sitemap, Context7 onboarding, and versioned provider docs in the Registry. Agents get current Pulumi docs instead of whatever was in their training data.</div>
+          <div class="links">
+            <a href="https://www.pulumi.com/llms.txt">See llms.txt</a>
+            <a href="https://www.pulumi.com/blog/previous-version-docs-are-now-available-in-the-pulumi-registry/">Registry versioned docs (co-launched)</a>
+          </div>
         </div>
         <div class="pcard">
-          <div class="t">Agent-consumable documentation</div>
-          <div class="d">Every page served as Markdown (via <code>.md</code> URLs or <code>Accept: text/markdown</code>), a curated <code>llms.txt</code>, a JSON sitemap, Context7 onboarding, and versioned provider docs in the Registry, so coding agents retrieve current Pulumi docs instead of stale training data.</div>
+          <div class="t">.NET IoT Libraries Documentation</div>
+          <div class="d">The hub, overview, Sense HAT quickstart, six hands-on tutorials (GPIO, I²C sensors, LCDs, ADCs), plus deployment, debugging, and USB bridge guides, with all the samples and wiring diagrams.</div>
           <div class="links">
-            <a href="https://www.pulumi.com/blog/previous-version-docs-are-now-available-in-the-pulumi-registry/">Registry versioned docs (co-launched)</a>
+            <a href="https://learn.microsoft.com/dotnet/iot/">View Documentation</a>
+            <a href="https://github.com/MicrosoftDocs/dotnet-iot-assets/">Example Code</a>
+            <a href="https://github.com/dotnet/samples/tree/main/iot/cheesecave.net">Cheese Cave sample</a>
           </div>
         </div>
       </div>
@@ -218,22 +224,6 @@ description: "AI agent systems, talks and livestreams, training, developer platf
           <div class="t">shark2mqtt</div>
           <div class="d">A Python bridge exposing Shark robot vacuums to Home Assistant over MQTT, built with Claude Code. 35+ stars and a community-maintained Home Assistant OS add-on.</div>
           <div class="links"><a href="https://github.com/CamSoper/shark2mqtt">GitHub</a></div>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <h2>Documentation</h2>
-      <p>As an author on the .NET docs team I created the entire set of .NET IoT documentation, bridging hardware integration with .NET development. I still contribute to it: the .NET 10 update in March 2026 was mine.</p>
-      <div class="grid one">
-        <div class="pcard">
-          <div class="t">.NET IoT Libraries Documentation</div>
-          <div class="d">The hub, overview, Sense HAT quickstart, six hands-on tutorials (GPIO, I²C sensors, LCDs, ADCs), plus deployment, debugging, and USB bridge guides, with all the samples and wiring diagrams.</div>
-          <div class="links">
-            <a href="https://learn.microsoft.com/dotnet/iot/">View Documentation</a>
-            <a href="https://github.com/MicrosoftDocs/dotnet-iot-assets/">Example Code</a>
-            <a href="https://github.com/dotnet/samples/tree/main/iot/cheesecave.net">Cheese Cave sample</a>
-          </div>
         </div>
       </div>
     </section>
